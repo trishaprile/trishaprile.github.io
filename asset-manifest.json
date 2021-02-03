@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/static/css/main.89731f91.chunk.css",
+    "main.js": "/static/js/main.aa34bc50.chunk.js",
+    "main.js.map": "/static/js/main.aa34bc50.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.06dd2115.js",
+    "runtime-main.js.map": "/static/js/runtime-main.06dd2115.js.map",
+    "static/css/2.43b2b750.chunk.css": "/static/css/2.43b2b750.chunk.css",
+    "static/js/2.2341f0ae.chunk.js": "/static/js/2.2341f0ae.chunk.js",
+    "static/js/2.2341f0ae.chunk.js.map": "/static/js/2.2341f0ae.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/2.43b2b750.chunk.css.map": "/static/css/2.43b2b750.chunk.css.map",
+    "static/css/main.89731f91.chunk.css.map": "/static/css/main.89731f91.chunk.css.map",
+    "static/js/2.2341f0ae.chunk.js.LICENSE.txt": "/static/js/2.2341f0ae.chunk.js.LICENSE.txt",
+    "static/media/adobecc.2762452b.jpg": "/static/media/adobecc.2762452b.jpg",
+    "static/media/angular.8cbd3d8b.png": "/static/media/angular.8cbd3d8b.png",
+    "static/media/django.4c399895.jpg": "/static/media/django.4c399895.jpg",
+    "static/media/figma.90eb21ce.png": "/static/media/figma.90eb21ce.png",
+    "static/media/graphql.ee89e523.png": "/static/media/graphql.ee89e523.png",
+    "static/media/javascript.1707d09a.png": "/static/media/javascript.1707d09a.png",
+    "static/media/me.297413ee.png": "/static/media/me.297413ee.png",
+    "static/media/nodejs.31c0e97d.png": "/static/media/nodejs.31c0e97d.png",
+    "static/media/react.617f8b03.png": "/static/media/react.617f8b03.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.06dd2115.js",
+    "static/css/2.43b2b750.chunk.css",
+    "static/js/2.2341f0ae.chunk.js",
+    "static/css/main.89731f91.chunk.css",
+    "static/js/main.aa34bc50.chunk.js"
+  ]
+}
