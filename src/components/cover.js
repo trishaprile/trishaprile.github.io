@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import './cover.css';
-import NavigationBar from './navbar';
-import ReactTooltip from 'react-tooltip';
+// import ReactTooltip from 'react-tooltip';
 
 import { Container } from 'react-bootstrap';
 
@@ -17,7 +16,6 @@ class Cover extends Component {
   render() {
     return (
       <div className="cover">
-        <NavigationBar />
         <div className="cover-container">
           <div className="glass">
             <Container className="cover-text">

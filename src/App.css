@@ -9,3 +9,9 @@
   margin: 0;
   padding: 0;
 }
+
+.icon {
+  height: 50px;
+  width: 50px;
+  margin: 1rem;
+}
