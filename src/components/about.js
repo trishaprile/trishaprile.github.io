@@ -5,7 +5,7 @@ import me from '../assets/me.png'
 class About extends Component {
   render() {
     return (
-      <div id="about">
+      <div className="about">
         <Container className="about-container">
           <Row className="about-row">
             <Col className="pic-col">
