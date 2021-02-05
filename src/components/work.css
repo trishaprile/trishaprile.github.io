@@ -1,29 +1,34 @@
 #work {
-  position: relative;
-  height: 1080px;
-  background-color: #F9D184;
+  width: 100vw;
+  margin-bottom: 5rem;
 }
-#work h1 {
-  text-align: center;
-  font-size: 36px;
-  font-weight: 700;
-  color: #FAFAFA;
-  padding-top: 2em;
-}
-#work h2 {
+
+.project-name {
   font-weight: 600;
   font-size: 28px;
   color: #4D4D4D;
 }
-#work h3 {
+
+.project-description {
   font-weight: 500;
   font-size: 20px;
   color: #AFAFAF;
 }
-#work .project {
-  display: inline-block;
-  width: 800px;
-  height: 400px;
+
+.project-glass {
+  background: rgba( 255, 255, 255, 0.2);
+  box-shadow: 0 10px 30px 0 rgba( 31, 38, 135, 0.2);
+  backdrop-filter: blur(2px);
+  -webkit-backdrop-filter: blur(3px);
+  border: 2px solid rgba( 255, 255, 255, 0.18 );
   border-radius: 20px;
-  background: #FAFAFA;
+  width: 28vw;
+  height: 40vh;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  animation-duration: 1000ms;
+  animation-name: fadeIn;
+  padding: 3rem;
 }

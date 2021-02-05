@@ -1,44 +1,68 @@
 #experience {
-  position: relative;
-  height: 1080px;
+  color: #FAFAFA;
+  margin-bottom: 5rem;
 }
-#experience .job{
-  padding-bottom: 1.5em;
+
+.jobs-glass {
+  background: rgba( 255, 255, 255, 0.2);
+  box-shadow: 0 10px 30px 0 rgba( 31, 38, 135, 0.2);
+  backdrop-filter: blur(2px);
+  -webkit-backdrop-filter: blur(3px);
+  border: 2px solid rgba( 255, 255, 255, 0.18 );
+  border-radius: 20px;
+  width: 25vw;
+  height: 65vh;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  animation-duration: 1000ms;
+  animation-name: fadeIn;
+  padding: 3rem;
 }
-#experience h1 {
-  text-align: center;
-  font-size: 36px;
-  font-weight: 700;
-  color: #F27E59;
-  padding: 2em;
+
+.toolbox-glass {
+  background: rgba( 255, 255, 255, 0.2);
+  box-shadow: 0 10px 30px 0 rgba( 31, 38, 135, 0.2);
+  backdrop-filter: blur(2px);
+  -webkit-backdrop-filter: blur(3px);
+  border: 2px solid rgba( 255, 255, 255, 0.18 );
+  border-radius: 20px;
+  width: 30vw;
+  height: 65vh;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  animation-duration: 1000ms;
+  animation-name: fadeIn;
 }
-#experience h2 {
+
+.company {
   font-size: 28px;
   font-weight: 600;
   color: #4D4D4D;
 }
-#experience h3 {
+
+.years {
   font-size: 20px;
   font-style: italic;
   color: #AFAFAF;
 }
-#experience p {
+
+.role {
   font-size: 24px;
   color: #4D4D4D;
 }
-#experience .icon {
+
+.toolbox-title {
+  font-size: 28px;
+  font-weight: 600;
+  color: #4D4D4D;
+}
+
+.icon {
   height: 60px;
-}
-#experience .resume {
-  text-align: center;
-  padding-top: 3em;
-}
-#experience Button {
-  font-size: 24px;
-  color: #FAFAFA;
-  background: #F27E59;
-  border-color: #F27E59;
-  border-radius: 20px;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-  padding: 0.5em 1em;
+  width: auto;
 }

@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import './cover.css';
 // import ReactTooltip from 'react-tooltip';
+import Resume from "../assets/Trisha Le Resume.pdf"
 
 import { Container } from 'react-bootstrap';
 
@@ -15,7 +16,7 @@ import {
 class Cover extends Component {
   render() {
     return (
-      <div className="cover">
+      <div id="cover">
         <div className="cover-container">
           <div className="glass">
             <Container className="cover-text">
@@ -26,7 +27,7 @@ class Cover extends Component {
                 <a href="https://github.com/trishaprile" target="_blank" rel="noreferrer"><FaGithub className="social-icon"/></a>
                 <a href="https://www.instagram.com/trishaprile/" target="_blank" rel="noreferrer"><FaInstagram className="social-icon"/></a>
                 <a href="mailto: trishaprilee@gmail.com" target="_blank" rel="noreferrer"><FaEnvelope className="social-icon"/></a>
-                <a href="https://www.linkedin.com/in/trishaprile/" target="_blank" rel="noreferrer"><FaFileAlt className="social-icon"/></a>
+                <a href={Resume} target="_blank" rel="noreferrer"><FaFileAlt className="social-icon"/></a>
               </div>
             </Container>
         </div>

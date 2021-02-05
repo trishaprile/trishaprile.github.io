@@ -1,5 +1,5 @@
 .about {
-  height: 100%;
+  color: #FAFAFA;
 }
 
 .about-row {
@@ -21,21 +21,38 @@
   animation:slideinleft 1s forwards;
 }
 
-.about-title {
+/* .about-title {
   color: #4D4D4D;
   font-size: 36px;
   font-weight: 700;
   padding-bottom: 1rem;
   text-align: left;
   animation: slideinright 1s forwards;
+} */
+
+.about-glass {
+  background: rgba( 255, 255, 255, 0.2);
+  box-shadow: 0 10px 30px 0 rgba( 31, 38, 135, 0.2);
+  backdrop-filter: blur(2px);
+  -webkit-backdrop-filter: blur(3px);
+  border: 2px solid rgba( 255, 255, 255, 0.18 );
+  border-radius: 20px;
+  width: 30vw;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  animation-duration: 1000ms;
+  animation-name: fadeIn;
 }
 
 .about-text {
-  color: #4D4D4D;
   font-size: 20px;
   text-align: left;
   vertical-align: auto;
   animation: slideinright 1s forwards;
+  padding: 3rem;
 }
 
 @keyframes slideinleft{
@@ -62,5 +79,11 @@
     width: 100vw;
     text-align: center;
     padding-top: 3em;
-}
+  }
+  .about-glass {
+    width: 80%;
+  }
+  .about-text {
+    font-size: 12px;
+  }
 }

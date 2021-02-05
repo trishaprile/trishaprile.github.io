@@ -18,63 +18,65 @@ class Experience extends Component {
   render() {
     return (
       <div id="experience">
-        <h1>my experience</h1>
-        <Container className="main">
+        <Container className="experience-container">
           <Row>
-            <Col xs={10}>
-              <div className="jobs">
-                <div className="job">
-                  <h3>2020 - present</h3>
-                  <h2>StartSmart</h2>
-                  <p>Front-End Developer</p>
-                </div>
-                <div className="job">
-                  <h3>2019 - 2020</h3>
-                  <h2>Ardent Labs</h2>
-                  <p>Software Development Intern</p>
-                </div>
-                <div className="job">
-                  <h3>2019</h3>
-                  <h2>Dreams for Schools</h2>
-                  <p>App Development Mentor</p>
-                </div>
-                <div className="job">
-                  <h3>2017</h3>
-                  <h2>Boeing</h2>
-                  <p>Software Development Intern</p>
+            <Col className="jobs-col">
+              <div className="jobs-glass">
+                <div className="jobs">
+                  <div className="job">
+                    <h3 className="years">2020 - present</h3>
+                    <h2 className="company">StartSmart</h2>
+                    <p className="role">Front-End Developer</p>
+                  </div>
+                  <div className="job">
+                    <h3 className="years">2019 - 2020</h3>
+                    <h2 className="company">Ardent Labs</h2>
+                    <p className="role">Software Development Intern</p>
+                  </div>
+                  <div className="job">
+                    <h3 className="years">2019</h3>
+                    <h2 className="company">Dreams for Schools</h2>
+                    <p className="role">App Development Mentor</p>
+                  </div>
+                  <div className="job">
+                    <h3 className="years">2017</h3>
+                    <h2 className="company">Boeing</h2>
+                    <p className="role">Software Development Intern</p>
+                  </div>
                 </div>
               </div>
             </Col>
-            <Col>
-              <h2>toolbox</h2>
-              <div className="toolbox">
-                <Container>
-                  <Row xs={3}>
-                    <Col><img className="icon" src={figma} alt="Figma"/></Col>
-                    <Col><img className="icon" src={adobecc} alt="Adobe Creative Cloud"/></Col>
-                    <Col><img className="icon" src={bootstrap} alt="Bootstrap"/></Col>
-                  </Row>
-                  <Row xs={3}>
-                    <Col><img className="icon" src={html} alt="HTML"/></Col>
-                    <Col><img className="icon" src={css} alt="CSS"/></Col>
-                    <Col><img className="icon" src={javascript} alt="Javascript"/></Col>
-                  </Row>
-                  <Row xs={3}>
-                    <Col><img className="icon" src={react} alt="React"/></Col>
-                    <Col><img className="icon" src={angular} alt="Angular"/></Col>
-                    <Col><img className="icon" src={nodejs} alt="NodeJS"/></Col>
-                  </Row>
-                  <Row xs={3}>
-                    <Col><img className="icon" src={django} alt="Django"/></Col>
-                    <Col><img className="icon" src={graphql} alt="GraphQL"/></Col>
-                    <Col><img className="icon" src={git} alt="Git"/></Col>
-                  </Row>
-                </Container>
+            <Col className="toolbox-col">
+              <div className="toolbox-glass">
+                <h2 className="toolbox-title">toolbox</h2>
+                <div className="toolbox">
+                  <Container>
+                    <Row xs={3}>
+                      <Col><img className="icon" src={figma} alt="Figma"/></Col>
+                      <Col><img className="icon" src={adobecc} alt="Adobe Creative Cloud"/></Col>
+                      <Col><img className="icon" src={bootstrap} alt="Bootstrap"/></Col>
+                    </Row>
+                    <Row xs={3}>
+                      <Col><img className="icon" src={html} alt="HTML"/></Col>
+                      <Col><img className="icon" src={css} alt="CSS"/></Col>
+                      <Col><img className="icon" src={javascript} alt="Javascript"/></Col>
+                    </Row>
+                    <Row xs={3}>
+                      <Col><img className="icon" src={react} alt="React"/></Col>
+                      <Col><img className="icon" src={angular} alt="Angular"/></Col>
+                      <Col><img className="icon" src={nodejs} alt="NodeJS"/></Col>
+                    </Row>
+                    <Row xs={3}>
+                      <Col><img className="icon" src={django} alt="Django"/></Col>
+                      <Col><img className="icon" src={graphql} alt="GraphQL"/></Col>
+                      <Col><img className="icon" src={git} alt="Git"/></Col>
+                    </Row>
+                  </Container>
+                </div>
               </div>
             </Col>
           </Row>
         </Container>
-        <div className="resume"><Button>view resume</Button></div>
       </div>     
     );
   }
