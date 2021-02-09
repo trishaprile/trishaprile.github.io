@@ -40,25 +40,26 @@
 }
 
 .company {
-  font-size: 28px;
-  font-weight: 600;
+  font-size: 24px;
+  font-weight: 500;
   color: #4D4D4D;
 }
 
 .years {
-  font-size: 20px;
+  font-size: 18px;
   font-style: italic;
   color: #AFAFAF;
 }
 
 .role {
-  font-size: 24px;
+  font-size: 20px;
   color: #4D4D4D;
+  padding-bottom: 1rem;
 }
 
 .toolbox-title {
-  font-size: 28px;
-  font-weight: 600;
+  font-size: 24px;
+  font-weight: 500;
   color: #4D4D4D;
 }
 

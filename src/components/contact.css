@@ -2,13 +2,18 @@
   position: relative;
   color: #4D4D4D;
   text-align: center;
-
 }
-#contact h1 {
-  font-size: 36px;
-  font-weight: 700;
+
+.contact-me {
+  font-size: 28px;
+  font-weight: 600;
   padding-top: 1em;
 }
-#contact h2 {
-  font-size: 20px;
+
+.socials {
+  margin: 2rem;
+}
+
+.copyright {
+  padding-bottom: 2rem;
 }

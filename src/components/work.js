@@ -7,7 +7,7 @@ class Work extends Component {
     return (
       <div id="work">
         <Container>
-            <Row>
+            <Row className="work-row">
 							<Col>
                 <div className="project-glass">
                   {/* https://github.com/grasshopperfund */}
@@ -23,7 +23,7 @@ class Work extends Component {
                 </div>
 							</Col>
             </Row>
-						<Row>
+						<Row className="work-row">
 							<Col>
                 <div className="project-glass">
                   {/* https://github.com/skapoor2/travelpal */}
