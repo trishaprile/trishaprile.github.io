@@ -1,6 +1,5 @@
 #cover {
   color: #FAFAFA;
-  margin: auto;
 }
 
 .cover-container {
@@ -58,7 +57,6 @@
 }
 
 .social-icon {
-  color: white;
   width: 70px;
   height: auto;
   padding: 15px;
@@ -66,6 +64,8 @@
   margin-right: 1vw;
   animation-duration: 3000ms;
   animation-name: fadeIn;
+  font-weight: 400;
+  color: #FAFAFA;
 }
 
 .social-icon:hover {

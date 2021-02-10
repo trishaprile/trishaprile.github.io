@@ -1,11 +1,11 @@
-.about {
+#about {
   color: #FAFAFA;
 }
 
 .about-row {
   align-items: center;
   padding-top: 15vh;
-  padding-bottom: 15vh;
+  padding-bottom: 20vh;
 }
 
 .pic-col {
@@ -20,15 +20,6 @@
   margin-right: auto;
   animation:slideinleft 1s forwards;
 }
-
-/* .about-title {
-  color: #4D4D4D;
-  font-size: 36px;
-  font-weight: 700;
-  padding-bottom: 1rem;
-  text-align: left;
-  animation: slideinright 1s forwards;
-} */
 
 .about-glass {
   background: rgba( 255, 255, 255, 0.2);
@@ -52,7 +43,7 @@
   text-align: left;
   vertical-align: auto;
   animation: slideinright 1s forwards;
-  padding: 3rem;
+  padding: 4rem;
 }
 
 @keyframes slideinleft{
@@ -76,7 +67,6 @@
       text-align: center;
   }
   .text-col {
-    width: 100vw;
     text-align: center;
     padding-top: 3em;
   }

@@ -25,22 +25,22 @@ class Experience extends Component {
                 <div className="jobs">
                   <div className="job">
                     <h3 className="years">2020 - present</h3>
-                    <h2 className="company">StartSmart</h2>
+                    <h2 className="company"><a href="https://startsmart.co/" target="_blank" rel="noreferrer">StartSmart</a></h2>
                     <p className="role">Front-End Developer</p>
                   </div>
                   <div className="job">
                     <h3 className="years">2019 - 2020</h3>
-                    <h2 className="company">Ardent Labs</h2>
+                    <h2 className="company"><a href="https://www.ardentlabs.io/" target="_blank" rel="noreferrer">Ardent Labs</a></h2>
                     <p className="role">Software Development Intern</p>
                   </div>
                   <div className="job">
                     <h3 className="years">2019</h3>
-                    <h2 className="company">Dreams for Schools</h2>
+                    <h2 className="company"><a href="https://www.dreamsforschools.org/" target="_blank" rel="noreferrer">Dreams for Schools</a></h2>
                     <p className="role">App Development Mentor</p>
                   </div>
                   <div className="job">
                     <h3 className="years">2017</h3>
-                    <h2 className="company">Boeing</h2>
+                    <h2 className="company"><a href="https://www.boeing.com/" target="_blank" rel="noreferrer">Boeing</a></h2>
                     <p className="role">Software Development Intern</p>
                   </div>
                 </div>

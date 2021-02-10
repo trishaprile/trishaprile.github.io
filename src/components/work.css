@@ -1,6 +1,6 @@
 #work {
-  width: 100vw;
-  margin-bottom: 3rem;
+  color: #FAFAFA;
+  padding: 5rem 0rem;
 }
 
 .work-row {
@@ -10,13 +10,11 @@
 .project-name {
   font-weight: 500;
   font-size: 24px;
-  color: #4D4D4D;
 }
 
 .project-description {
   font-weight: 400;
   font-size: 18px;
-  color: #AFAFAF;
 }
 
 .project-glass {
@@ -34,5 +32,19 @@
   overflow: hidden;
   animation-duration: 1000ms;
   animation-name: fadeIn;
-  padding: 3rem;
+}
+
+.project-img {
+  height: 80%;
+  width: auto;
+}
+
+a {
+  color: #FAFAFA;
+
+}
+
+a:hover {
+  color: #FAFAFA;
+  text-decoration: none;
 }
