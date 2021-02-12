@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import './experience.css';
 import { Container, Row, Col, Button } from "react-bootstrap";
 import figma from '../assets/figma.png';
-import adobecc from '../assets/adobecc.jpg';
+import adobecc from '../assets/adobecc.png';
 import bootstrap from '../assets/bootstrap.png';
 import html from '../assets/html.png';
 import css from '../assets/css.png';
