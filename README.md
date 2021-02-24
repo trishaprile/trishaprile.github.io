@@ -1,4 +1,4 @@
-# trishaprile
+# trishaprile.github.io
 Trisha Le's personal website portfolio.
 
 
