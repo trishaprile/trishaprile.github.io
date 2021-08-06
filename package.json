@@ -17,6 +17,7 @@
     "react-scripts": "4.0.0",
     "react-scrolling-nav": "^1.1.5",
     "react-tooltip": "^4.2.13",
+    "sass": "^1.37.5",
     "web-vitals": "^0.2.4"
   },
   "scripts": {
