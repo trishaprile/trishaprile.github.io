@@ -1,0 +1,22 @@
+.navbar {
+    width: 100%;
+    height: 6rem;
+
+    .logo {
+        font-weight: 700;
+        font-size: 24px;
+        margin-left: 2rem;
+    }
+
+    .nav-link {
+        font-weight: 600;
+        font-size: 16px;
+        margin: 0rem 1.5rem;
+        color: #373737 !important;
+        &:hover {
+            color: #E05D2A !important;
+            transform: translateY(1px);
+        }
+    }
+    
+}

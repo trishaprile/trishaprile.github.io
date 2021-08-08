@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.css';
 
-import Navbar from "./components/Navbar";
+import NavigationBar from "./components/Navbar";
 import Cover from "./components/Cover";
 import About from "./components/About";
 import Experience from "./components/Experience";
@@ -11,7 +11,7 @@ import Contact from "./components/Contact";
 const App = () => { 
   return (
     <div className="App">
-      <Navbar />
+      <NavigationBar />
       <Cover />
       <About />
       <Experience />
