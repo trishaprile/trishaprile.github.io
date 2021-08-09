@@ -2,7 +2,10 @@ import React from 'react';
 import './About.scss';
 
 import { Row, Col, Image } from "react-bootstrap";
-import img  from "../assets/cover_img.svg";
+import img from "../assets/cover_img.svg";
+import projectManagement  from "../assets/project_management.svg";
+import softwareDevelopment  from "../assets/software_development.svg";
+import UIUXdesign  from "../assets/uiux_design.svg";
 
 const About = () => { 
   return (
@@ -17,6 +20,20 @@ const About = () => {
           <p>I recently graduated from the University of California, Irvine with a B.S. in Informatics and a minor in Education.
             My studies involved the understanding and practice of human computer interaction, software design, and human behavior with an emphasis on people and design.</p>
           <p>I’m passionate about software development, UI & UX design and research, and project management with a focus on education, accessibility, and human-centered design.</p>
+        </Col>
+      </Row>
+      <Row className="content-container">
+        <Col className="role-container">
+          <Image src={projectManagement} className="role-img" />
+          <p>project management</p>
+        </Col>
+        <Col className="role-container">
+          <Image src={softwareDevelopment} className="role-img" />
+          <p>software development</p>
+        </Col>
+        <Col className="role-container">
+          <Image src={UIUXdesign} className="role-img" />
+          <p>UI & UX design</p>
         </Col>
       </Row>
     </div>

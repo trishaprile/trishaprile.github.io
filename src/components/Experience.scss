@@ -1,0 +1,78 @@
+#experience {
+    width: 100%;
+    min-height: 100vh;
+
+    .content-container {
+        padding: 5% 10%;
+        width: 100%;
+
+        h1 {
+            font-size: 24px;
+            font-weight: 700;
+            text-align: center;
+            margin: 3rem 0rem;        
+        }
+
+        .jobs-container {
+            padding-left: 5rem;
+
+            h2 {
+                font-size: 20px;
+                font-weight: 700;
+            }
+
+            a {
+                color: #373737 !important;
+                &:hover {
+                    text-decoration: none;
+                    color: #E05D2A !important;
+                }
+            }
+
+            h3 {
+                font-size: 14px;
+                font-weight: 500;
+                color: #AFAFAF;
+                margin-top: 2rem;
+            }
+
+            p {
+                font-size: 18px;
+            }
+        }
+
+        .toolbox-container {
+            display: flex;
+            flex-direction: column;
+
+            .toolbox {
+                margin: auto;
+
+                .icon-container {
+                    
+                    .icon {
+                        height: 60px;
+                        width: auto;
+                        margin: 1rem;;
+                    }
+                }
+            }
+
+            .resume-btn {
+                font-weight: 600;
+                font-size: 14px;
+                background-color: #E05D2A;
+                border: 0;
+                border-radius: 15px;
+                margin: auto;
+                margin-top: 2rem;
+                padding: 1rem;
+                width: 10rem;
+                &:hover {
+                    background-color: #CA430E;
+                }
+            }
+        }
+
+    }
+}
