@@ -1,12 +1,33 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import './Navbar.scss';
 
 import { Nav, Navbar } from "react-bootstrap";
 
 const NavigationBar = () => { 
+  let listener = null;
+  const [scrollState, setScrollState] = useState("top");
+
+  useEffect(() => {
+    listener = document.addEventListener("scroll", e => {
+      var scrolled = document.scrollingElement.scrollTop
+      if (scrolled >= 150) {
+        if (scrollState !== "amir") {
+          setScrollState("amir")
+        }
+      } else {
+        if (scrollState !== "top") {
+          setScrollState("top")
+        }
+      }
+    })
+    return () => {
+      document.removeEventListener("scroll", listener)
+    }
+  }, [scrollState])
+
   return (
     <div className="navbar">
-      <Navbar collapseOnSelect expand="lg" fixed="top">
+      <Navbar collapseOnSelect expand="lg" fixed="top" className={scrollState === "top" ? "nav-top" : "nav"}>
         <Navbar.Brand href="#" className="logo">trishaprile</Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">

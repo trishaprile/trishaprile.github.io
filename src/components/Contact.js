@@ -20,12 +20,6 @@ const Contact = () => {
       </div>
       <div className="footer">
         <p>Made with ✨ © Trisha Le 2021</p>
-        {/* <div className="links">
-          <a href="#about">about</a>
-          <a href="#experience">experience</a>
-          <a href="#projects">projects</a>
-          <a href="#contact">contact</a>
-        </div> */}
       </div>
     </div>
   );

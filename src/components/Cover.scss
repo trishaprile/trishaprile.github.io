@@ -1,6 +1,6 @@
 #cover {
     width: 100%;
-    min-height: 100vh;
+    min-height: 90vh;
 
     .content-container {
         padding: 10%;
@@ -38,6 +38,7 @@
             width: 8rem;
             &:hover {
                 background-color: #CA430E;
+                transform: translateY(2px);
             }
         }
     }

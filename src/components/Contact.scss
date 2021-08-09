@@ -8,6 +8,7 @@
         font-size: 24px;
         font-weight: 700;
         text-align: center;
+        margin-top: 3rem;
     }
 
     h3 {
@@ -23,32 +24,19 @@
             margin: 2rem;
             height: 50px;
             width: auto;
+            &:hover {
+                transform: translateY(2px);
+            }
         }
     }
 
     .footer {
         width: 100%;
-        padding: 2rem 3rem;
+        padding: 1rem 3rem;
 
         p {
             font-size: 14px;
             font-weight: 400;
-            float: left;
-        }
-
-        a {
-            font-size: 16px;
-            font-weight: 600;
-            margin: 1.5rem;
-            color: #373737;
-            &:hover {
-                color: #E05D2A;
-                text-decoration: none;
-            }
-        }
-
-        .links {
-            float: right;
         }
     }
 }

@@ -1,6 +1,8 @@
 #projects {
     width: 100%;
-    min-height: 100vh;
+    min-height: 90vh;
+    display: flex;
+    flex-direction: column;
 
     h1 {
         font-size: 24px;
@@ -9,15 +11,25 @@
         margin-top: 3rem;
     }
 
-    .projects-container {
+    .project-container {
+        margin: auto;
+        display: flex;
+        flex-direction: column;
 
-        .project {
+        .project-row {
+            margin: auto;
             display: flex;
-            
-            .project-img {
+
+            .project {
                 margin: auto;
+                display: flex;
+                
+                .project-img {
+                    height: 400px;
+                    width: 500px;
+                    margin: auto;
+                }
             }
         }
     }
-
 }
