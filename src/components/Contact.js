@@ -2,6 +2,7 @@ import React from 'react';
 import './Contact.scss';
 
 import { Image } from "react-bootstrap";
+import { FiMail } from "react-icons/fi";
 import linkedin from "../assets/LinkedIn.png";
 import github from "../assets/GitHub.png";
 import gitlab from "../assets/GitLab.png";
@@ -11,7 +12,7 @@ const Contact = () => {
   return (
     <div id="contact">
       <h1>contact me</h1>
-      <h3>trishaprilee@gmail.com</h3>
+      <h3><FiMail /> trishaprilee@gmail.com</h3>
       <div className="socials">
         <a href="https://www.linkedin.com/in/trishaprile/" target="_blank" rel="noreferrer"><Image src={linkedin} className="icon" /></a>
         <a href="https://www.github.com/trishaprile/" target="_blank" rel="noreferrer"><Image src={github} className="icon" /></a>

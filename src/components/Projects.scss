@@ -33,3 +33,27 @@
         }
     }
 }
+
+@media screen and (max-width: 600px) {
+    #projects {
+
+        h1 {
+            font-size: 20px;
+        }
+
+        .project-container {
+    
+            .project-row {
+    
+                .project {
+
+                    
+                    .project-img {
+                        height: 200px;
+                        width: 250px;
+                    }
+                }
+            }
+        }
+    }
+}

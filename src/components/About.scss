@@ -1,10 +1,13 @@
 #about {
     width: 100%;
     min-height: 90vh;
+    display: flex;
+    flex-direction: column;
 
     .content-container {
         padding: 5% 10%;
         width: 100%;
+        margin: auto;
 
         .info-container {
 
@@ -26,7 +29,7 @@
     
             .img {
                 height: auto;
-                width: 20rem;
+                width: 18rem;
                 margin: auto;
             }
         }
@@ -50,6 +53,44 @@
                 margin-bottom: 5rem;
                 text-align: center;
             }   
+        }
+    }
+}
+
+@media screen and (max-width: 600px) {
+    #about {
+
+        .content-container {
+
+            .info-container {
+
+                h1 {
+                    font-size: 20px;
+                }
+        
+                p {
+                    font-size: 14px;
+                }
+            
+            }
+
+            .img-container {
+        
+                .img {
+                    width: 15rem;
+                }
+            }
+
+            .role-container {
+
+                .role-img {
+                    width: 8rem;
+                }
+
+                p {
+                    font-size: 16px;
+                }
+            }
         }
     }
 }

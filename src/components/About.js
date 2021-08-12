@@ -2,7 +2,7 @@ import React from 'react';
 import './About.scss';
 
 import { Row, Col, Image } from "react-bootstrap";
-import img from "../assets/cover_img.svg";
+import me from "../assets/me.png";
 import projectManagement  from "../assets/project_management.svg";
 import softwareDevelopment  from "../assets/software_development.svg";
 import UIUXdesign  from "../assets/uiux_design.svg";
@@ -10,9 +10,9 @@ import UIUXdesign  from "../assets/uiux_design.svg";
 const About = () => { 
   return (
     <div id="about">
-      <Row className="content-container">
+      <Row className="content-container" sm={1} md={2} xl={2}>
         <Col className="img-container">
-          <Image src={img} className="img" />
+          <Image src={me} className="img" />
         </Col>
         <Col className="info-container">
           <h1>about me</h1>

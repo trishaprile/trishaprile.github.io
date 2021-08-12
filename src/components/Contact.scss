@@ -40,3 +40,33 @@
         }
     }
 }
+
+@media screen and (max-width: 600px) {
+    #contact {
+
+        h1 {
+            font-size: 20px;
+        }
+
+        h3 {
+            font-size: 16px;
+        }
+
+        .socials {
+
+            .icon {
+                margin: 1rem;
+                height: 40px;
+            }
+        }
+
+        .footer {
+
+            p {
+                font-size: 12px;
+                text-align: center;
+                margin-top: 1rem;
+            }
+        }
+    }
+}

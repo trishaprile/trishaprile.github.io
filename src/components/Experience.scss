@@ -1,10 +1,13 @@
 #experience {
     width: 100%;
     min-height: 90vh;
+    display: flex;
+    flex-direction: column;
 
     .content-container {
         padding: 5% 10%;
         width: 100%;
+        margin: auto;
 
         h1 {
             font-size: 24px;
@@ -75,5 +78,46 @@
             }
         }
 
+    }
+}
+
+@media screen and (max-width: 600px) {
+    #experience {
+
+        .content-container {
+            
+            h1 {
+                font-size: 20px;
+            }
+
+            .jobs-container {
+                padding-left: 1rem;
+
+                h2 {
+                    font-size: 18px;
+                }
+
+                h3 {
+                    font-size: 12px;
+                }
+
+                p {
+                    font-size: 16px;
+                }
+            }
+
+            .toolbox-container {
+
+                .toolbox {
+
+                    .icon-container {
+
+                        .icon {
+                            height: 40px;
+                        }
+                    }
+                }
+            }
+        }
     }
 }
