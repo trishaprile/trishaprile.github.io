@@ -15,6 +15,10 @@
         font-weight: 700;
         font-size: 24px;
         margin-left: 2rem;
+        &:hover {
+            color: #E05D2A !important;
+            transform: translateY(2px);
+        }
     }
 
     .nav-link {
@@ -24,7 +28,7 @@
         color: #373737 !important;
         &:hover {
             color: #E05D2A !important;
-            transform: translateY(1px);
+            transform: translateY(2px);
         }
     }
     

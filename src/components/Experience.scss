@@ -19,9 +19,25 @@
         .jobs-container {
             padding-left: 5rem;
 
+            .job {
+                margin: 2rem 0rem;
+            }
+
+            .icon {
+                height: 60px;
+                width: auto;
+                margin-top: 1rem;
+                &:hover {
+                    transform: translateY(2px);
+                }
+            }
+
             h2 {
                 font-size: 20px;
                 font-weight: 700;
+                &:hover {
+                    transform: translateY(1px);
+                }
             }
 
             a {
@@ -36,7 +52,6 @@
                 font-size: 14px;
                 font-weight: 500;
                 color: #AFAFAF;
-                margin-top: 2rem;
             }
 
             p {
@@ -99,6 +114,7 @@
 
                 h3 {
                     font-size: 12px;
+                    margin-top: 1rem;
                 }
 
                 p {

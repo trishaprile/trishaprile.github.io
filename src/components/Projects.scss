@@ -28,6 +28,9 @@
                     height: 400px;
                     width: 500px;
                     margin: auto;
+                    &:hover {
+                        transform: translateY(3px);
+                    }
                 }
             }
         }

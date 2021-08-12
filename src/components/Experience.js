@@ -2,6 +2,10 @@ import React from 'react';
 import './Experience.scss';
 
 import { Row, Col, Image, Button, OverlayTrigger, Tooltip } from "react-bootstrap";
+import startsmart from "../assets/job_logos/startsmart_logo.png";
+import peterportal from "../assets/job_logos/peterportal_logo.png";
+import ardentlabs from "../assets/job_logos/ardentlabs_logo.png";
+import boeing from "../assets/job_logos/boeing_logo.png";
 import figma from "../assets/toolbox_icons/figma.png";
 import adobecc from "../assets/toolbox_icons/adobecc.png";
 import bootstrap from "../assets/toolbox_icons/bootstrap.png";
@@ -22,28 +26,48 @@ const Experience = () => {
       <Row className="content-container">
         <Col className="jobs-container" sm={12} md={8} xl={6}>
           <h1>my experience</h1>
-          <div className="jobs">
-            <div className="job">
-              <h3 className="years">2020 - present</h3>
-              <h2 className="company"><a href="https://startsmart.co/" target="_blank" rel="noreferrer">StartSmart</a></h2>
-              <p className="role">Front-End Developer</p>
-            </div>
-            <div className="job">
-              <h3 className="years">2020 - 2021</h3>
-              <h2 className="company"><a href="https://peterportal-client.herokuapp.com/" target="_blank" rel="noreferrer">PeterPortal</a></h2>
-              <p className="role">Project Lead</p>
-            </div>
-            <div className="job">
-              <h3 className="years">2019 - 2020</h3>
-              <h2 className="company"><a href="https://www.ardentlabs.io/" target="_blank" rel="noreferrer">Ardent Labs</a></h2>
-              <p className="role">Software Development Intern</p>
-            </div>
-            <div className="job">
-              <h3 className="years">2017</h3>
-              <h2 className="company"><a href="https://www.boeing.com/" target="_blank" rel="noreferrer">Boeing</a></h2>
-              <p className="role">Software Development Intern</p>
-            </div>
-          </div>
+          <Col className="jobs">
+            <Row className="job">
+              <Col className="logo-container" sm={2} md={2} xl={2}>
+                <a href="https://startsmart.co/" target="_blank" rel="noreferrer"><Image className="icon" src={startsmart} alt="StartSmart"/></a>
+              </Col>
+              <Col className="info-container">
+                <h3 className="years">2020 - present</h3>
+                <h2 className="company"><a href="https://startsmart.co/" target="_blank" rel="noreferrer">StartSmart</a></h2>
+                <p className="role">Front-End Developer</p>
+              </Col>
+            </Row>
+            <Row className="job">
+              <Col className="logo-container" sm={2} md={2} xl={2}>
+                <a href="https://peterportal-client.herokuapp.com/" target="_blank" rel="noreferrer"><Image className="icon" src={peterportal} alt="StartSmart"/></a>
+              </Col>
+              <Col className="info-container">
+                <h3 className="years">2020 - 2021</h3>
+                <h2 className="company"><a href="https://peterportal-client.herokuapp.com/" target="_blank" rel="noreferrer">PeterPortal</a></h2>
+                <p className="role">Project Lead</p>
+              </Col>
+            </Row>
+            <Row className="job">
+              <Col className="logo-container" sm={2} md={2} xl={2}>
+                <a href="https://www.ardentlabs.io/" target="_blank" rel="noreferrer"><Image className="icon" src={ardentlabs} alt="StartSmart"/></a>
+              </Col>
+              <Col className="info-container">
+                <h3 className="years">2019 - 2020</h3>
+                <h2 className="company"><a href="https://www.ardentlabs.io/" target="_blank" rel="noreferrer">Ardent Labs</a></h2>
+                <p className="role">Software Development Intern</p>
+              </Col>
+            </Row>
+            <Row className="job">
+              <Col className="logo-container" sm={2} md={2} xl={2}>
+                <a href="https://www.boeing.com/" target="_blank" rel="noreferrer"><Image className="icon" src={boeing} alt="StartSmart"/></a>
+              </Col>
+              <Col className="info-container">
+                <h3 className="years">2017</h3>
+                <h2 className="company"><a href="https://www.boeing.com/" target="_blank" rel="noreferrer">Boeing</a></h2>
+                <p className="role">Software Development Intern</p>
+              </Col>
+            </Row>
+          </Col>
         </Col>
         <Col className="toolbox-container" sm={12} md={8} xl={6}>
           <h1>toolbox</h1>
