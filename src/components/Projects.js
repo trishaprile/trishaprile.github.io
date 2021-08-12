@@ -2,6 +2,8 @@ import React from 'react';
 import './Projects.scss';
 
 import { Row, Col, Image, Link } from "react-bootstrap";
+import { Element } from 'react-scroll';
+
 import grasshopperfund from "../assets/project_covers/grasshopperfund.png";
 import dfs_ias from "../assets/project_covers/dfs ias.png";
 import peter_portal from "../assets/project_covers/peter portal.png";
@@ -11,7 +13,7 @@ import covidulator from "../assets/project_covers/covidulator.png";
 
 const Projects = () => { 
   return (
-    <div id="projects">
+    <Element id='projects' name='projects'>
       <h1>my projects</h1>
       <Col className="project-container">
         <Row className="project-row">
@@ -39,7 +41,7 @@ const Projects = () => {
           </Col>
         </Row>
       </Col>
-    </div>
+    </Element>
   );
 }
 export default Projects;

@@ -2,6 +2,8 @@ import React from 'react';
 import './Experience.scss';
 
 import { Row, Col, Image, Button, OverlayTrigger, Tooltip } from "react-bootstrap";
+import { Element } from 'react-scroll';
+
 import startsmart from "../assets/job_logos/startsmart_logo.png";
 import peterportal from "../assets/job_logos/peterportal_logo.png";
 import ardentlabs from "../assets/job_logos/ardentlabs_logo.png";
@@ -22,7 +24,7 @@ import resume from '../assets/Trisha Le Resume.pdf';
 
 const Experience = () => { 
   return (
-    <div id="experience">
+    <Element id='experience' name='experience'>
       <Row className="content-container"> 
         <Col className="jobs-container" sm={12} md={8} xl={6}>
           <h1>my experience</h1>
@@ -180,7 +182,7 @@ const Experience = () => {
           <Button className="resume-btn" href={resume} target="_blank" rel="noreferrer">VIEW RESUME</Button>
         </Col>
       </Row>
-    </div>
+    </Element>
   );
 }
 export default Experience;

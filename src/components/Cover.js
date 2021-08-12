@@ -2,11 +2,13 @@ import React from 'react';
 import './Cover.scss';
 
 import { Row, Col, Button, Image } from "react-bootstrap";
+import { Element } from 'react-scroll';
+
 import img  from "../assets/cover_img.svg";
 
 const Cover = () => { 
   return (
-    <div id="cover">
+    <Element id='cover' name='cover'>
       <Row className="content-container">
         <Col className="info-container">
           <h1>Hello!</h1>
@@ -18,7 +20,7 @@ const Cover = () => {
           <Image src={img} className="img" />
         </Col>
       </Row>
-    </div>
+    </Element>
   );
 }
 export default Cover;

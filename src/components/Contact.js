@@ -2,7 +2,9 @@ import React from 'react';
 import './Contact.scss';
 
 import { Image } from "react-bootstrap";
+import { Element } from 'react-scroll';
 import { FiMail } from "react-icons/fi";
+
 import linkedin from "../assets/LinkedIn.png";
 import github from "../assets/GitHub.png";
 import gitlab from "../assets/GitLab.png";
@@ -10,7 +12,7 @@ import instagram from "../assets/Instagram.png";
 
 const Contact = () => { 
   return (
-    <div id="contact">
+    <Element id='contact' name='contact'>
       <h1>contact me</h1>
       <h3><a href="mailto:trishaprilee@gmail.com"><FiMail className="mail-icon" size={25}/></a>trishaprilee@gmail.com</h3>
       <div className="socials">
@@ -22,7 +24,7 @@ const Contact = () => {
       <div className="footer">
         <p>Made with ✨ © Trisha Le 2021</p>
       </div>
-    </div>
+    </Element>
   );
 }
 export default Contact;

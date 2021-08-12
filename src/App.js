@@ -8,14 +8,16 @@ import Experience from "./components/Experience";
 import Projects from "./components/Projects";
 import Contact from "./components/Contact";
 
-const App = () => (
-  <div className="App">
-    <NavigationBar />
-    <Cover />
-    <About />
-    <Experience />
-    <Projects />
-    <Contact />
-  </div>
-)
+const App = () => {
+  return (
+    <div className="App">
+      <NavigationBar />
+      <Cover />
+      <About />
+      <Experience />
+      <Projects />
+      <Contact />
+    </div>
+  );
+}
 export default App;

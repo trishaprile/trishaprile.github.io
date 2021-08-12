@@ -2,6 +2,8 @@ import React from 'react';
 import './About.scss';
 
 import { Row, Col, Image } from "react-bootstrap";
+import { Element } from 'react-scroll';
+
 import me from "../assets/me.png";
 import projectManagement  from "../assets/project_management.svg";
 import softwareDevelopment  from "../assets/software_development.svg";
@@ -9,7 +11,7 @@ import UIUXdesign  from "../assets/uiux_design.svg";
 
 const About = () => { 
   return (
-    <div id="about">
+    <Element id='about' name='about'>
       <Row className="content-container" sm={1} md={2} xl={2}>
         <Col className="img-container">
           <Image src={me} className="img" />
@@ -36,7 +38,7 @@ const About = () => {
           <p>UI & UX design</p>
         </Col>
       </Row>
-    </div>
+    </Element>
   );
 }
 export default About;
