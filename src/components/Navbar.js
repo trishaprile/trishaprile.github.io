@@ -3,6 +3,7 @@ import './Navbar.scss';
 
 import { Nav, Navbar } from "react-bootstrap";
 import { scroller } from 'react-scroll';
+import { RiMenu4Line } from "react-icons/ri";
 
 const NavigationBar = () => { 
   let listener = null;
@@ -39,7 +40,9 @@ const NavigationBar = () => {
         >
           trishaprile
         </Navbar.Brand>
-        <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+        <Navbar.Toggle aria-controls="responsive-navbar-nav" className="toggle">
+          <RiMenu4Line size={25}/>
+        </Navbar.Toggle>
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="ml-auto">
             <Nav.Link 

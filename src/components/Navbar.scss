@@ -23,7 +23,7 @@
 
     .nav-link {
         font-weight: 600;
-        font-size: 16px;
+        font-size: 18px;
         margin: 0rem 1.5rem;
         color: #373737 !important;
         &:hover {
@@ -34,6 +34,11 @@
 
     .contact {
         margin-right: 3rem;    
+    }
+
+    .toggle {
+        border: none !important;
+        color: #373737 !important;
     }
     
 }
@@ -58,6 +63,10 @@
 
         .logo {
             margin-left: 1rem;
+        }
+
+        .nav-link {
+            font-size: 16px;
         }
     }
 }
