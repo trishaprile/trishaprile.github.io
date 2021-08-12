@@ -23,7 +23,11 @@
                 margin: 2rem 0rem;
             }
 
-            .icon {
+            .logo-container {
+                margin-right: 2rem;
+            }
+
+            .logo {
                 height: 60px;
                 width: auto;
                 margin-top: 1rem;
@@ -73,6 +77,10 @@
                         width: auto;
                         margin: 1.5rem;;
                     }
+
+                    .tooltip {
+                        background-color: white !important;
+                    }
                 }
             }
 
@@ -119,6 +127,10 @@
 
                 p {
                     font-size: 16px;
+                }
+
+                .logo {
+                    height: 50px;
                 }
             }
         }

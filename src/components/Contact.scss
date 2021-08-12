@@ -17,6 +17,15 @@
         margin: 2rem 0rem;
     }
 
+    .mail-icon {
+        color: #E05D2A;
+        width: 3rem;
+        margin-bottom: 2px;
+        &:hover {
+            transform: translateY(2px);
+        }
+    }
+
     .socials {
         margin: auto;
 

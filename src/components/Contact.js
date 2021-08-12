@@ -12,7 +12,7 @@ const Contact = () => {
   return (
     <div id="contact">
       <h1>contact me</h1>
-      <h3><FiMail /> trishaprilee@gmail.com</h3>
+      <h3><a href="mailto:trishaprilee@gmail.com"><FiMail className="mail-icon" size={25}/></a>trishaprilee@gmail.com</h3>
       <div className="socials">
         <a href="https://www.linkedin.com/in/trishaprile/" target="_blank" rel="noreferrer"><Image src={linkedin} className="icon" /></a>
         <a href="https://www.github.com/trishaprile/" target="_blank" rel="noreferrer"><Image src={github} className="icon" /></a>

@@ -23,9 +23,10 @@
             .project {
                 margin: auto;
                 display: flex;
+                flex-direction: column;
                 
                 .project-img {
-                    height: 400px;
+                    height: auto;
                     width: 500px;
                     margin: auto;
                     &:hover {
@@ -49,11 +50,9 @@
             .project-row {
     
                 .project {
-
                     
                     .project-img {
-                        height: 200px;
-                        width: 250px;
+                        width: 80vw;
                     }
                 }
             }

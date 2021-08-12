@@ -23,13 +23,13 @@ import resume from '../assets/Trisha Le Resume.pdf';
 const Experience = () => { 
   return (
     <div id="experience">
-      <Row className="content-container">
+      <Row className="content-container"> 
         <Col className="jobs-container" sm={12} md={8} xl={6}>
           <h1>my experience</h1>
           <Col className="jobs">
             <Row className="job">
               <Col className="logo-container" sm={2} md={2} xl={2}>
-                <a href="https://startsmart.co/" target="_blank" rel="noreferrer"><Image className="icon" src={startsmart} alt="StartSmart"/></a>
+                <a href="https://startsmart.co/" target="_blank" rel="noreferrer"><Image className="logo" src={startsmart} alt="StartSmart"/></a>
               </Col>
               <Col className="info-container">
                 <h3 className="years">2020 - present</h3>
@@ -39,7 +39,7 @@ const Experience = () => {
             </Row>
             <Row className="job">
               <Col className="logo-container" sm={2} md={2} xl={2}>
-                <a href="https://peterportal-client.herokuapp.com/" target="_blank" rel="noreferrer"><Image className="icon" src={peterportal} alt="StartSmart"/></a>
+                <a href="https://peterportal-client.herokuapp.com/" target="_blank" rel="noreferrer"><Image className="logo" src={peterportal} alt="StartSmart"/></a>
               </Col>
               <Col className="info-container">
                 <h3 className="years">2020 - 2021</h3>
@@ -49,7 +49,7 @@ const Experience = () => {
             </Row>
             <Row className="job">
               <Col className="logo-container" sm={2} md={2} xl={2}>
-                <a href="https://www.ardentlabs.io/" target="_blank" rel="noreferrer"><Image className="icon" src={ardentlabs} alt="StartSmart"/></a>
+                <a href="https://www.ardentlabs.io/" target="_blank" rel="noreferrer"><Image className="logo" src={ardentlabs} alt="StartSmart"/></a>
               </Col>
               <Col className="info-container">
                 <h3 className="years">2019 - 2020</h3>
@@ -59,7 +59,7 @@ const Experience = () => {
             </Row>
             <Row className="job">
               <Col className="logo-container" sm={2} md={2} xl={2}>
-                <a href="https://www.boeing.com/" target="_blank" rel="noreferrer"><Image className="icon" src={boeing} alt="StartSmart"/></a>
+                <a href="https://www.boeing.com/" target="_blank" rel="noreferrer"><Image className="logo" src={boeing} alt="StartSmart"/></a>
               </Col>
               <Col className="info-container">
                 <h3 className="years">2017</h3>
