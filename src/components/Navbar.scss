@@ -15,8 +15,8 @@
         font-weight: 700;
         font-size: 24px;
         margin-left: 2rem;
+        color: #E05D2A !important;
         &:hover {
-            color: #E05D2A !important;
             transform: translateY(2px);
         }
     }
@@ -48,7 +48,7 @@
         
         .navbar-toggler {
             background: white !important;
-            transition:0.3s;
+            transition: 0.3s;
         }
 
         .navbar-collapse {
