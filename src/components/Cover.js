@@ -14,7 +14,7 @@ const Cover = () => {
         <Col className="info-container">
           <h1>Hello!</h1>
           <h2>I'm Trisha,</h2>
-          <h3>a designer and developer who enjoys creating impactful experiences, from ideation to execution.</h3>
+          <h3>a manager, developer, and designer who enjoys creating impactful experiences, from ideation to execution.</h3>
           <Button 
             className="contact-btn"
             onClick={() => scroller.scrollTo('contact', {

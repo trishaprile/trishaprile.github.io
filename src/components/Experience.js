@@ -36,7 +36,7 @@ const Experience = () => {
               <Col className="info-container">
                 <h3 className="years">2020 - present</h3>
                 <h2 className="company"><a href="https://startsmart.co/" target="_blank" rel="noreferrer">StartSmart</a></h2>
-                <p className="role">Front-End Developer</p>
+                <p className="role">Product Manager</p>
               </Col>
             </Row>
             <Row className="job">
@@ -46,7 +46,7 @@ const Experience = () => {
               <Col className="info-container">
                 <h3 className="years">2020 - 2021</h3>
                 <h2 className="company"><a href="https://peterportal-client.herokuapp.com/" target="_blank" rel="noreferrer">PeterPortal</a></h2>
-                <p className="role">Project Lead</p>
+                <p className="role">Project Manager</p>
               </Col>
             </Row>
             <Row className="job">
@@ -66,7 +66,7 @@ const Experience = () => {
               <Col className="info-container">
                 <h3 className="years">2017</h3>
                 <h2 className="company"><a href="https://www.boeing.com/" target="_blank" rel="noreferrer">Boeing</a></h2>
-                <p className="role">Software Development Intern</p>
+                <p className="role">Software Engineer Intern</p>
               </Col>
             </Row>
           </Col>
