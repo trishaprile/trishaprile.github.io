@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/static/css/main.10e9e8d3.chunk.css",
-    "main.js": "/static/js/main.20d7a827.chunk.js",
-    "main.js.map": "/static/js/main.20d7a827.chunk.js.map",
+    "main.css": "/static/css/main.bdf9c1cd.chunk.css",
+    "main.js": "/static/js/main.54def23a.chunk.js",
+    "main.js.map": "/static/js/main.54def23a.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.06dd2115.js",
     "runtime-main.js.map": "/static/js/runtime-main.06dd2115.js.map",
     "static/css/2.43b2b750.chunk.css": "/static/css/2.43b2b750.chunk.css",
@@ -10,7 +10,7 @@
     "static/js/2.53f4bf4c.chunk.js.map": "/static/js/2.53f4bf4c.chunk.js.map",
     "index.html": "/index.html",
     "static/css/2.43b2b750.chunk.css.map": "/static/css/2.43b2b750.chunk.css.map",
-    "static/css/main.10e9e8d3.chunk.css.map": "/static/css/main.10e9e8d3.chunk.css.map",
+    "static/css/main.bdf9c1cd.chunk.css.map": "/static/css/main.bdf9c1cd.chunk.css.map",
     "static/js/2.53f4bf4c.chunk.js.LICENSE.txt": "/static/js/2.53f4bf4c.chunk.js.LICENSE.txt",
     "static/media/Trisha Le Resume.6a0a20ab.pdf": "/static/media/Trisha Le Resume.6a0a20ab.pdf",
     "static/media/cover_img.9c4b8b5f.svg": "/static/media/cover_img.9c4b8b5f.svg",
@@ -29,7 +29,7 @@
     "static/js/runtime-main.06dd2115.js",
     "static/css/2.43b2b750.chunk.css",
     "static/js/2.53f4bf4c.chunk.js",
-    "static/css/main.10e9e8d3.chunk.css",
-    "static/js/main.20d7a827.chunk.js"
+    "static/css/main.bdf9c1cd.chunk.css",
+    "static/js/main.54def23a.chunk.js"
   ]
 }
