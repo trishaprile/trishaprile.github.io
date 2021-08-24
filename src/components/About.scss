@@ -1,13 +1,10 @@
 #about {
     width: 100%;
     min-height: 90vh;
-    display: flex;
-    flex-direction: column;
 
     .content-container {
         padding: 5% 10%;
         width: 100%;
-        margin: auto;
 
         .info-container {
 
@@ -20,17 +17,18 @@
             p {
                 font-size: 16px;
                 margin-top: 1rem;
+                padding-right: 2rem;
             }
         
         }
     
         .img-container {
-            display: flex;
     
             .img {
                 height: auto;
                 width: 18rem;
-                margin: auto;
+                margin-left: 8rem;
+                margin-top: 2rem;
                 border-radius: 50%;
             }
         }
@@ -79,6 +77,7 @@
         
                 .img {
                     width: 15rem;
+                    margin-left: 3rem;
                 }
             }
 

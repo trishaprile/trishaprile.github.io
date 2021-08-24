@@ -35,7 +35,7 @@
             width: auto;
             color: #E05D2A;
             &:hover {
-                transform: translateY(2px);
+                transform: translateY(2px) !important;
             }
         }
     }

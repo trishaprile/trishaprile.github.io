@@ -25,6 +25,7 @@
             font-weight: 600;
             font-size: 18px;
             max-width: 22rem;
+            line-height: 26px;
         }
     
         .contact-btn {
@@ -50,12 +51,11 @@
     }
 
     .img-container {
-        display: flex;
 
         .img {
             height: auto;
             width: 25rem;
-            margin: auto;
+            margin-left: 5rem;
         }
     }
 }
@@ -87,6 +87,7 @@
             .img {
                 width: 60vw;
                 margin-top: 1rem;
+                margin-left: 1rem;
             }
         }
     }
