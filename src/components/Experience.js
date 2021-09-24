@@ -27,12 +27,14 @@ const Experience = () => {
   return (
     <Element id='experience' name='experience'>
       <Row className="content-container"> 
-        <Col className="jobs-container" sm={12} md={8} xl={6}>
-          <h1>my experience</h1>
+        <Col className="jobs-container" sm={12} md={8} lg={6}>
+          <Fade>
+            <h1>my experience</h1>
+          </Fade>
           <Col className="jobs">
-            <Fade left>
+            <Fade top>
               <Row className="job">
-                <Col className="logo-container" sm={2} md={2} xl={2}>
+                <Col className="logo-container" sm={2} md={2} lg={2}>
                   <a href="https://startsmart.co/" target="_blank" rel="noreferrer"><Image className="logo" src={startsmart} alt="StartSmart"/></a>
                 </Col>
                 <Col className="info-container">
@@ -42,7 +44,7 @@ const Experience = () => {
                 </Col>
               </Row>
               <Row className="job">
-                <Col className="logo-container" sm={2} md={2} xl={2}>
+                <Col className="logo-container" sm={2} md={2} lg={2}>
                   <a href="https://peterportal-client.herokuapp.com/" target="_blank" rel="noreferrer"><Image className="logo" src={peterportal} alt="StartSmart"/></a>
                 </Col>
                 <Col className="info-container">
@@ -52,7 +54,7 @@ const Experience = () => {
                 </Col>
               </Row>
               <Row className="job">
-                <Col className="logo-container" sm={2} md={2} xl={2}>
+                <Col className="logo-container" sm={2} md={2} lg={2}>
                   <a href="https://www.ardentlabs.io/" target="_blank" rel="noreferrer"><Image className="logo" src={ardentlabs} alt="StartSmart"/></a>
                 </Col>
                 <Col className="info-container">
@@ -62,7 +64,7 @@ const Experience = () => {
                 </Col>
               </Row>
               <Row className="job">
-                <Col className="logo-container" sm={2} md={2} xl={2}>
+                <Col className="logo-container" sm={2} md={2} lg={2}>
                   <a href="https://www.boeing.com/" target="_blank" rel="noreferrer"><Image className="logo" src={boeing} alt="StartSmart"/></a>
                 </Col>
                 <Col className="info-container">
@@ -74,10 +76,12 @@ const Experience = () => {
             </Fade>
           </Col>
         </Col>
-        <Col className="toolbox-container" sm={12} md={8} xl={6}>
-          <h1>toolbox</h1>
+        <Col className="toolbox-container" sm={12} md={8} lg={6}>
+          <Fade>
+            <h1>toolbox</h1>
+          </Fade>
           <div className="toolbox">
-            <Fade right>
+            <Fade top>
               <Row xs={3}>
                 <Col className="icon-container">
                   <OverlayTrigger

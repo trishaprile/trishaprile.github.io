@@ -1,10 +1,14 @@
 #about {
     width: 100%;
     min-height: 90vh;
+    display: flex;
+    flex-direction: column;
 
     .content-container {
-        padding: 5% 10%;
+        padding: 2% 10%;
         width: 100%;
+        margin: auto;
+
 
         .info-container {
 
@@ -40,18 +44,23 @@
             padding: 1rem;
     
             .role-img {
-                height: auto;
-                width: 10rem;
+                width: auto;
+                height: 8rem;
                 margin: auto;
+                padding-bottom: 2rem;
             }
     
-            p {
-                font-weight: 600;
+            h2 {
+                font-weight: 700;
                 font-size: 18px;
-                margin-top: 2rem;
-                margin-bottom: 5rem;
+                margin-top: 1rem;
+                margin-bottom: 2rem;
                 text-align: center;
             }   
+
+            p {
+                text-align: center;
+            }
         }
     }
 }
@@ -87,8 +96,12 @@
                     width: 8rem;
                 }
 
-                p {
+                h2 {
                     font-size: 16px;
+                }
+
+                p {
+                    font-size: 14px;
                 }
             }
         }

@@ -12,8 +12,10 @@ import { SiInstagram } from "react-icons/si";
 const Contact = () => { 
   return (
     <Element id='contact' name='contact'>
-      <h1>contact me</h1>
-      <h3><a href="mailto:trishaprilee@gmail.com"><FiMail className="mail-icon" size={25}/></a>trishaprilee@gmail.com</h3>
+      <Fade>
+        <h1>contact me</h1>
+        <h3><a href="mailto:trishaprilee@gmail.com"><FiMail className="mail-icon" size={25}/></a>trishaprilee@gmail.com</h3>
+      </Fade>
       <div className="socials">
         <Fade bottom cascade>
           <a href="https://www.linkedin.com/in/trishaprile/" target="_blank" rel="noreferrer"><SiLinkedin className="icon"/></a>

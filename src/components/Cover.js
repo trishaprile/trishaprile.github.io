@@ -13,10 +13,12 @@ const Cover = () => {
     <Element id='cover' name='cover'>
       <Row className="content-container">
         <Col className="info-container">
-          <Fade left>
+          <Fade top>
             <h1>Hello!</h1>
             <h2>I'm Trisha,</h2>
             <h3>a manager, developer, and designer who enjoys creating impactful experiences, from ideation to execution.</h3>
+          </Fade>
+          <Fade bottom>
             <Button 
               className="contact-btn"
               onClick={() => scroller.scrollTo('contact', {
@@ -29,8 +31,8 @@ const Cover = () => {
             </Button>
           </Fade>
         </Col>
-        <Col className="img-container" sm={12} md={8} xl={6}>
-          <Fade right>
+        <Col className="img-container" sm={12} md={8} lg={6}>
+          <Fade>
             <Image src={img} className="img" />
           </Fade>
         </Col>
