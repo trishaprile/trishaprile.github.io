@@ -26,48 +26,48 @@ import resume from '../assets/Trisha Le Resume.pdf';
 const Experience = () => { 
   return (
     <Element id='experience' name='experience'>
-      <Row className="content-container"> 
-        <Col className="jobs-container" sm={12} md={8} lg={6}>
+      <Row className="content-container" xs={1} sm={1} md={1} lg={2}> 
+        <Col className="jobs-container">
           <Fade>
-            <h1>my experience</h1>
+            <h1 style={{ marginBottom: '3rem' }}>my experience</h1>
           </Fade>
           <Col className="jobs">
             <Fade top>
-              <Row className="job">
-                <Col className="logo-container" sm={2} md={2} lg={2}>
+              <Row className="job" xs={8} sm={8} md={8} lg={8}>
+                <Col className="logo-container" xs={2} sm={2} md={2} lg={2}>
                   <a href="https://startsmart.co/" target="_blank" rel="noreferrer"><Image className="logo" src={startsmart} alt="StartSmart"/></a>
                 </Col>
-                <Col className="info-container">
+                <Col className="info-container" xs={9} sm={9} md={9} lg={9}>
                   <h3 className="years">2020 - present</h3>
                   <h2 className="company"><a href="https://startsmart.co/" target="_blank" rel="noreferrer">StartSmart</a></h2>
                   <p className="role">Product Manager</p>
                 </Col>
               </Row>
-              <Row className="job">
-                <Col className="logo-container" sm={2} md={2} lg={2}>
+              <Row className="job" xs={8} sm={8} md={8} lg={8}>
+                <Col className="logo-container" xs={2} sm={2} md={2} lg={2}>
                   <a href="https://peterportal-client.herokuapp.com/" target="_blank" rel="noreferrer"><Image className="logo" src={peterportal} alt="StartSmart"/></a>
                 </Col>
-                <Col className="info-container">
+                <Col className="info-container" xs={9} sm={9} md={9} lg={9}>
                   <h3 className="years">2020 - 2021</h3>
                   <h2 className="company"><a href="https://peterportal-client.herokuapp.com/" target="_blank" rel="noreferrer">PeterPortal</a></h2>
                   <p className="role">Project Manager</p>
                 </Col>
               </Row>
-              <Row className="job">
-                <Col className="logo-container" sm={2} md={2} lg={2}>
+              <Row className="job" xs={8} sm={8} md={8} lg={8}>
+                <Col className="logo-container" xs={2} sm={2} md={2} lg={2}>
                   <a href="https://www.ardentlabs.io/" target="_blank" rel="noreferrer"><Image className="logo" src={ardentlabs} alt="StartSmart"/></a>
                 </Col>
-                <Col className="info-container">
+                <Col className="info-container" xs={9} sm={9} md={9} lg={9}>
                   <h3 className="years">2019 - 2020</h3>
                   <h2 className="company"><a href="https://www.ardentlabs.io/" target="_blank" rel="noreferrer">Ardent Labs</a></h2>
                   <p className="role">Software Development Intern</p>
                 </Col>
               </Row>
-              <Row className="job">
-                <Col className="logo-container" sm={2} md={2} lg={2}>
+              <Row className="job" xs={8} sm={8} md={8} lg={8}>
+                <Col className="logo-container" xs={2} sm={2} md={2} lg={2}>
                   <a href="https://www.boeing.com/" target="_blank" rel="noreferrer"><Image className="logo" src={boeing} alt="StartSmart"/></a>
                 </Col>
-                <Col className="info-container">
+                <Col className="info-container" xs={9} sm={9} md={9} lg={9}>
                   <h3 className="years">2017</h3>
                   <h2 className="company"><a href="https://www.boeing.com/" target="_blank" rel="noreferrer">Boeing</a></h2>
                   <p className="role">Software Engineer Intern</p>
@@ -76,7 +76,7 @@ const Experience = () => {
             </Fade>
           </Col>
         </Col>
-        <Col className="toolbox-container" sm={12} md={8} lg={6}>
+        <Col className="toolbox-container">
           <Fade>
             <h1>toolbox</h1>
           </Fade>

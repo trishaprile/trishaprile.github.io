@@ -14,17 +14,23 @@
     .project-container {
         margin: auto;
         display: flex;
+        justify-content: center;
+        align-items: center;
         flex-direction: column;
+        padding: 0;
 
         .project-row {
             margin: auto;
             display: flex;
+            justify-content: center;
+            align-items: center;
 
             .project {
                 margin: auto;
                 display: flex;
                 flex-direction: column;
-                
+                padding: 0;
+
                 .project-img {
                     height: auto;
                     width: 500px;
@@ -52,7 +58,7 @@
                 .project {
                     
                     .project-img {
-                        width: 80vw;
+                        width: 90vw;
                     }
                 }
             }

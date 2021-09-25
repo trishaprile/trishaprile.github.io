@@ -5,61 +5,82 @@
     flex-direction: column;
 
     .content-container {
-        padding: 5% 10%;
-        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
         margin: auto;
+        padding: 3% 10%;
+        width: 100%;
 
         h1 {
             font-size: 24px;
             font-weight: 700;
             text-align: center;
-            margin: 3rem 0rem;        
+            margin-bottom: 2rem;
         }
 
         .jobs-container {
-            padding-left: 5rem;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            margin: auto;
 
-            .job {
-                margin: 2rem 1rem;
-            }
+            .jobs {
+                display: flex;
+                align-items: left;
+                flex-direction: column;
+                margin: auto;
+                padding-left: 8vw;
 
-            .logo-container {
-                margin-right: 2rem;
-            }
-
-            .logo {
-                height: 60px;
-                width: auto;
-                margin-top: 1rem;
-                &:hover {
-                    transform: translateY(2px);
+                .job {
+                    display: flex;
+                    margin-bottom: 1rem;
                 }
-            }
-
-            h2 {
-                font-size: 20px;
-                font-weight: 700;
-                &:hover {
-                    transform: translateY(1px);
+    
+                .logo-container {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    margin-right: 1rem;
                 }
-            }
-
-            a {
-                color: #373737 !important;
-                &:hover {
-                    text-decoration: none;
-                    color: #E05D2A !important;
+    
+                .logo {
+                    height: 60px;
+                    width: auto;
+                    &:hover {
+                        transform: translateY(2px);
+                    }
                 }
-            }
 
-            h3 {
-                font-size: 14px;
-                font-weight: 500;
-                color: #AFAFAF;
-            }
-
-            p {
-                font-size: 18px;
+                .info-container {
+    
+                    h2 {
+                        font-size: 20px;
+                        font-weight: 700;
+                        &:hover {
+                            transform: translateY(1px);
+                        }
+                    }
+        
+                    a {
+                        color: #373737 !important;
+                        &:hover {
+                            text-decoration: none;
+                            color: #E05D2A !important;
+                        }
+                    }
+        
+                    h3 {
+                        font-size: 14px;
+                        font-weight: 500;
+                        color: #AFAFAF;
+                    }
+        
+                    p {
+                        font-size: 18px;
+                    }
+                }
             }
         }
 
@@ -71,11 +92,14 @@
                 margin: auto;
 
                 .icon-container {
-                    
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                                
                     .icon {
                         height: 50px;
                         width: auto;
-                        margin: 1.5rem;;
+                        margin: 1.5rem;
                     }
 
                     .tooltip {
@@ -106,7 +130,6 @@
                 }
             }
         }
-
     }
 }
 
@@ -114,30 +137,49 @@
     #experience {
 
         .content-container {
-            padding: 0%;
+            padding: 2%;
             
             h1 {
                 font-size: 20px;
+                margin-top: 1rem;
             }
 
             .jobs-container {
-                padding-left: 1rem;
+                
+                .jobs {
 
-                h2 {
-                    font-size: 18px;
+                    .job {
+                        
+                        .logo {
+                            height: 50px;
+                        }
+
+                        .info-container {
+                            h2 {
+                                font-size: 18px;
+                            }
+        
+                            h3 {
+                                font-size: 12px;
+                                margin-top: 1rem;
+                            }
+        
+                            p {
+                                font-size: 16px;
+                            }
+                        }
+                    }
                 }
+            }
 
-                h3 {
-                    font-size: 12px;
-                    margin-top: 1rem;
-                }
-
-                p {
-                    font-size: 16px;
-                }
-
-                .logo {
-                    height: 50px;
+            .toolbox-container {
+                .toolbox {
+                    .icon-container {
+                        .icon {
+                            height: 40px;
+                            margin: 1rem;
+                        }
+                    }
                 }
             }
         }

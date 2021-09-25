@@ -11,7 +11,7 @@ import img  from "../assets/cover_img.svg";
 const Cover = () => { 
   return (
     <Element id='cover' name='cover'>
-      <Row className="content-container">
+      <Row className="content-container" sm={1} md={1} lg={2}>
         <Col className="info-container">
           <Fade top>
             <h1>Hello!</h1>
@@ -31,7 +31,7 @@ const Cover = () => {
             </Button>
           </Fade>
         </Col>
-        <Col className="img-container" sm={12} md={8} lg={6}>
+        <Col className="img-container">
           <Fade>
             <Image src={img} className="img" />
           </Fade>

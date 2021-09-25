@@ -5,17 +5,19 @@
     flex-direction: column;
 
     .content-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
         padding: 2% 10%;
         width: 100%;
-        margin: auto;
-
 
         .info-container {
 
             h1 {
                 font-weight: 700;
                 font-size: 24px;
-                margin-top: 3rem;
+                margin-top: 2rem;
             }
     
             p {
@@ -27,12 +29,14 @@
         }
     
         .img-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
     
             .img {
+                margin: 1rem;
                 height: auto;
                 width: 18rem;
-                margin-left: 8rem;
-                margin-top: 2rem;
                 border-radius: 50%;
             }
         }
@@ -40,6 +44,7 @@
         .role-container {
             display: flex;
             flex-direction: column;
+            justify-content: center;
             align-items: center;
             padding: 1rem;
     
@@ -69,6 +74,7 @@
     #about {
 
         .content-container {
+            flex-direction: column;
 
             .info-container {
 

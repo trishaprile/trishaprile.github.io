@@ -12,7 +12,7 @@
         h1 {
             font-weight: 700;
             font-size: 48px;
-            margin-top: 3rem;
+            margin-top: 5rem;
         }
     
         h2 {
@@ -51,11 +51,14 @@
     }
 
     .img-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
 
         .img {
             height: auto;
             width: 25rem;
-            margin-left: 5rem;
+            margin: 1rem;
         }
     }
 }
@@ -64,13 +67,14 @@
     #cover {
 
         .content-container {
-            padding: 5% 10%;
+            padding: 2% 10%;
         }
 
         .info-container {
 
             h1 {
                 font-size: 42px;
+                margin-top: 1rem;
             }
 
             h2 {
@@ -86,8 +90,6 @@
     
             .img {
                 width: 60vw;
-                margin-top: 1rem;
-                margin-left: 1rem;
             }
         }
     }

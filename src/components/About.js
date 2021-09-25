@@ -29,8 +29,8 @@ const About = () => {
           </Fade>
         </Col>
       </Row>
-      <Row className="content-container">
-        <Col className="role-container" sm={1} md={3} lg={4}>
+      <Row className="content-container" sm={1} md={3} lg={3}>
+        <Col className="role-container" >
           <Fade>
             <h2>project & product management</h2>
             <Image src={projectManagement} className="role-img" />
@@ -43,7 +43,7 @@ const About = () => {
             </div>
           </Fade>
         </Col>
-        <Col className="role-container" sm={1} md={3} lg={4}>
+        <Col className="role-container" >
           <Fade>
             <h2>software development</h2>
             <Image src={softwareDevelopment} className="role-img" />
@@ -56,7 +56,7 @@ const About = () => {
             </div>
           </Fade>
         </Col>
-        <Col className="role-container" sm={1} md={3} lg={4}>
+        <Col className="role-container" >
           <Fade>
             <h2>UI & UX design</h2>
             <Image src={UIUXdesign} className="role-img" />
