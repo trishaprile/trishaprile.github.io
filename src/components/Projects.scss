@@ -37,12 +37,131 @@
                     margin: auto;
                     &:hover {
                         transform: translateY(3px);
+                        cursor: pointer;
                     }
                 }
             }
         }
     }
 }
+
+.project-modal {
+    position: absolute;
+    width: 100vw !important;
+    height: auto;
+    top: 50%;
+    left: 50%;
+    margin: 10px !important;
+    transform: translate(-50%, -50%) !important;
+    box-shadow: 0px 24px 56px 2px rgb(0 0 0 / 20%);
+    transition: 0.5s;
+    font-family: 'Mulish';
+
+    .modal-content {
+        border-radius: 15px !important;
+        border: none;
+        padding: 1rem 2rem 2rem 2rem;
+    }
+
+    .modal-header {
+        border: none;
+    }
+
+    h2 {
+        font-weight: 700;
+        font-size: 26px;
+        color: #E05D2A;
+    }
+
+    h4 {
+        font-weight: 800;
+        font-size: 14px;
+    }
+
+    h3 {
+        font-weight: 700;
+        font-size: 18px;
+        margin-top: 1rem;
+    }
+
+    .badge {
+        background-color: #FCEDE7;
+        width: auto;
+        height: 20px;
+        margin-right: 0.8rem;
+        margin-top: 1rem;
+        padding: 1rem;
+        border-radius: 50px;
+
+
+        p {
+            font-size: 14px;
+            font-weight: 700;
+            color: #E05D2A;
+            text-align: center;
+            vertical-align: middle;
+            line-height: 0px;
+        }
+    }
+
+    .visit-site-btn {
+        font-weight: 700;
+        font-size: 14px;
+        background-color: #E05D2A;
+        border: 0;
+        border-radius: 15px;
+        margin-top: 2rem;
+        margin-right: 1rem;
+        padding: 0.8rem 1.5rem;
+        width: auto;
+        transition: 0.5s;
+        float: left;
+        &:hover {
+            background-color: white;
+            color: #E05D2A;
+            box-shadow: 0px 0px 0px 2.5px #fff, 0px 0px 0px 5px #E05D2A, 0px 0px 0px 10px white, 0px 0px 0px 10.5px #E05D2A;
+            transition: 0.5s;
+        }
+        &:focus {
+            box-shadow: 0px 0px 0px 2.5px #fff, 0px 0px 0px 5px #E05D2A, 0px 0px 0px 10px white, 0px 0px 0px 10.5px #E05D2A;
+            background-color: white;
+            color: #E05D2A !important;
+        }
+    }
+
+    .secondary-btn {
+        font-weight: 700;
+        font-size: 14px;
+        background-color: white;
+        color: #E05D2A;
+        border-color: #E05D2A;
+        border-width: 2px;
+        border-radius: 15px;
+        margin-top: 2rem;
+        padding: 0.7rem 1.5rem;
+        width: auto;
+        transition: 0.5s;
+        float: left;
+        &:hover {
+            background-color: #E05D2A;
+            color: white;
+            transition: 0.5s;
+            border-color: #E05D2A;
+        }
+        &:focus {
+            background-color: #E05D2A;
+        }
+    }
+
+    a {
+        margin-top: 10rem;
+    }
+
+    .trophy {
+        margin-right: 8px;
+        margin-bottom: 3px;
+    }
+  }
 
 @media screen and (max-width: 600px) {
     #projects {
@@ -62,6 +181,14 @@
                     }
                 }
             }
+        }
+    }
+
+    .project-modal {
+        margin: 0px !important;
+    
+        .modal-content {
+            padding: 1rem;
         }
     }
 }

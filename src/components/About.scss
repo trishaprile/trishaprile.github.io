@@ -63,8 +63,30 @@
                 text-align: center;
             }   
 
-            p {
-                text-align: center;
+            .skills {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+
+                .badge {
+                    background-color: #FCEDE7;
+                    width: auto;
+                    height: 20px;
+                    margin-right: 0.8rem;
+                    margin-top: 1rem;
+                    padding: 1rem;
+                    border-radius: 50px;
+            
+            
+                    p {
+                        font-size: 14px;
+                        font-weight: 700;
+                        color: #E05D2A;
+                        text-align: center;
+                        vertical-align: middle;
+                        line-height: 0px;
+                    }
+                }
             }
         }
     }
@@ -106,8 +128,12 @@
                     font-size: 16px;
                 }
 
-                p {
-                    font-size: 14px;
+                .skills {
+                    .badge {
+                        p {
+                            font-size: 12px;
+                        }
+                    }
                 }
             }
         }

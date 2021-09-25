@@ -36,10 +36,10 @@ const About = () => {
             <Image src={projectManagement} className="role-img" />
           </Fade>
           <Fade top cascade>
-            <div>
-              <p>Scrum & Agile Management</p>
-              <p>Product Research & Strategies</p>
-              <p>Requirements Specification</p>
+            <div className="skills">
+              <div className="badge"><p>Scrum & Agile Management</p></div>
+              <div className="badge"><p>Product Research & Strategies</p></div>
+              <div className="badge"><p>Requirements Specification</p></div>
             </div>
           </Fade>
         </Col>
@@ -49,10 +49,10 @@ const About = () => {
             <Image src={softwareDevelopment} className="role-img" />
           </Fade>
           <Fade top cascade>
-            <div>
-              <p>Frontend Development</p>
-              <p>Backend Development</p>
-              <p>Quality Assurance</p>
+            <div className="skills">
+              <div className="badge"><p>Frontend Development</p></div>
+              <div className="badge"><p>Backend Development</p></div>
+              <div className="badge"><p>Quality Assurance</p></div>
             </div>
           </Fade>
         </Col>
@@ -62,10 +62,10 @@ const About = () => {
             <Image src={UIUXdesign} className="role-img" />
           </Fade>
           <Fade top cascade>
-            <div>
-              <p>Wireframing & Prototyping</p>
-              <p>User Research & Testing</p>
-              <p>Usability Evaluation</p>
+            <div className="skills">
+              <div className="badge"><p>Wireframing & Prototyping</p></div>
+              <div className="badge"><p>User Research & Testing</p></div>
+              <div className="badge"><p>Usability Evaluation</p></div>
             </div>
           </Fade>
         </Col>
