@@ -30,7 +30,7 @@ const Contact = () => {
           <a href="https://www.instagram.com/trishaprile/" target="_blank" rel="noreferrer"><SiInstagram className="icon"/></a>
         </Fade>
       </Row>
-      <Bounce bottom>
+      <Fade top>
         <div 
           className="arrow-container"
           onClick={() => scroller.scrollTo('cover', {
@@ -41,7 +41,7 @@ const Contact = () => {
         >
           <BsChevronCompactUp className="arrow" size={50} />
         </div>
-      </Bounce>
+      </Fade>
       <div className="footer">
         <Fade bottom>
           <p>Made with ✨ © Trisha Le 2021</p>
