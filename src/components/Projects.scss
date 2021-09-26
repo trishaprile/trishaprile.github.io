@@ -47,21 +47,13 @@
 }
 
 .project-modal {
-    position: absolute;
-    width: 100vw !important;
-    height: auto;
-    top: 50%;
-    left: 50%;
-    margin: 10px !important;
-    transform: translate(-50%, -50%) !important;
-    box-shadow: 0px 24px 56px 2px rgb(0 0 0 / 20%);
     transition: 0.3s;
     font-family: 'Mulish';
 
     .modal-content {
         border-radius: 15px !important;
         border: none;
-        padding: 1rem 2rem 2rem 2rem;
+        padding: 1rem 2rem 0rem 2rem;
     }
 
     .modal-header {
@@ -91,7 +83,7 @@
         width: auto;
         height: 20px;
         margin-right: 0.8rem;
-        margin-top: 1rem;
+        margin-top: 0.8rem;
         padding: 1rem;
         border-radius: 50px;
 
@@ -105,27 +97,26 @@
         }
     }
 
-    .visit-site-btn {
+    .primary-btn {
         font-weight: 700;
         font-size: 14px;
         background-color: #E05D2A;
         border: 0;
         border-radius: 15px;
-        margin-top: 2rem;
-        margin-right: 1rem;
+        margin: 2rem 1rem 1rem 0rem;
         padding: 0.8rem 1.5rem;
         width: auto;
         transition: 0.5s;
         float: left;
         &:hover {
-            background-color: white;
+            background-color: #FAFAFA;
             color: #E05D2A;
-            box-shadow: 0px 0px 0px 2.5px #fff, 0px 0px 0px 5px #E05D2A, 0px 0px 0px 10px white, 0px 0px 0px 10.5px #E05D2A;
+            box-shadow: 0px 0px 0px 2.5px #FAFAFA, 0px 0px 0px 5px #E05D2A, 0px 0px 0px 10px #FAFAFA, 0px 0px 0px 10.5px #E05D2A;
             transition: 0.5s;
         }
         &:focus {
-            box-shadow: 0px 0px 0px 2.5px #fff, 0px 0px 0px 5px #E05D2A, 0px 0px 0px 10px white, 0px 0px 0px 10.5px #E05D2A;
-            background-color: white;
+            box-shadow: 0px 0px 0px 2.5px #FAFAFA, 0px 0px 0px 5px #E05D2A, 0px 0px 0px 10px #FAFAFA, 0px 0px 0px 10.5px #E05D2A;
+            background-color: #FAFAFA;
             color: #E05D2A !important;
         }
     }
@@ -133,7 +124,7 @@
     .secondary-btn {
         font-weight: 700;
         font-size: 14px;
-        background-color: white;
+        background-color: #FAFAFA;
         color: #E05D2A;
         border-color: #E05D2A;
         border-width: 2px;
@@ -145,23 +136,20 @@
         float: left;
         &:hover {
             background-color: #E05D2A;
-            color: white;
+            color: #FAFAFA;
             transition: 0.5s;
             border-color: #E05D2A;
         }
         &:focus {
             background-color: #E05D2A;
-            color: white;
+            color: #FAFAFA;
         }
     }
 
-    a {
-        margin-top: 10rem;
-    }
-
-    .trophy {
+    .achievement-icon {
         margin-right: 8px;
         margin-bottom: 3px;
+        color: #E05D2A;
     }
   }
 
@@ -187,7 +175,7 @@
     }
 
     .project-modal {
-        margin: 0px !important;
+        margin: 3rem 0 0 0 !important;
     
         .modal-content {
             padding: 1rem;

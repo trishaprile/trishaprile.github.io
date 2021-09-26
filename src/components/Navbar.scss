@@ -3,12 +3,12 @@
     height: 10vh;
 
     .nav-top {
-        background-color: white;
+        background-color: #FAFAFA !important;
     }
 
     .nav {
-        background-color: white;
-        box-shadow: 0px 4px 50px 10px rgba(168, 168, 168, 0.1);
+        background-color: #FAFAFA !important;
+        box-shadow: 0px 5px 25px 10px rgba(168, 168, 168, 0.1);
     }
 
     .logo {
@@ -48,14 +48,14 @@
     .navbar {
         
         .navbar-toggler {
-            background: white !important;
+            background: #FAFAFA !important;
             transition: 0.3s;
         }
 
         .navbar-collapse {
             width: 100%;
             overflow-x: hidden;
-            background: white !important;
+            background: #FAFAFA !important;
             border-radius: 15px;
             padding: 0.5rem !important;
             box-shadow: 0px 4px 50px 10px rgba(168, 168, 168, 0.1);

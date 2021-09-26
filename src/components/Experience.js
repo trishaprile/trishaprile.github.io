@@ -86,7 +86,7 @@ const Experience = () => {
                 <Col className="icon-container">
                   <OverlayTrigger
                     placement="bottom"
-                    overlay={<Tooltip>Figma</Tooltip>}
+                    overlay={<Tooltip id="tooltip" className="tooltip">Figma</Tooltip>}
                   >
                     <Image className="icon" src={figma} alt="Figma"/>
                   </OverlayTrigger>
@@ -94,7 +94,7 @@ const Experience = () => {
                 <Col className="icon-container">
                   <OverlayTrigger
                     placement="bottom"
-                    overlay={<Tooltip>Adobe Creative Cloud</Tooltip>}
+                    overlay={<Tooltip className="tooltip">Adobe Creative Cloud</Tooltip>}
                   >
                     <Image className="icon" src={adobecc} alt="Adobe Creative Cloud"/>
                   </OverlayTrigger>
@@ -102,7 +102,7 @@ const Experience = () => {
                 <Col className="icon-container">
                   <OverlayTrigger
                     placement="bottom"
-                    overlay={<Tooltip>Bootstrap</Tooltip>}
+                    overlay={<Tooltip className="tooltip">Bootstrap</Tooltip>}
                   >
                     <Image className="icon" src={bootstrap} alt="Bootstrap"/>
                   </OverlayTrigger>
@@ -112,7 +112,7 @@ const Experience = () => {
                 <Col className="icon-container">
                   <OverlayTrigger
                     placement="bottom"
-                    overlay={<Tooltip>HTML</Tooltip>}
+                    overlay={<Tooltip className="tooltip">HTML</Tooltip>}
                   >
                     <Image className="icon" src={html} alt="HTML"/>
                   </OverlayTrigger>
@@ -120,7 +120,7 @@ const Experience = () => {
                 <Col className="icon-container">
                   <OverlayTrigger
                     placement="bottom"
-                    overlay={<Tooltip>CSS</Tooltip>}
+                    overlay={<Tooltip className="tooltip">CSS</Tooltip>}
                   >
                     <Image className="icon" src={css} alt="CSS"/>
                   </OverlayTrigger>
@@ -128,7 +128,7 @@ const Experience = () => {
                 <Col className="icon-container">
                   <OverlayTrigger
                     placement="bottom"
-                    overlay={<Tooltip>JavaScript</Tooltip>}
+                    overlay={<Tooltip className="tooltip">JavaScript</Tooltip>}
                   >
                     <Image className="icon" src={javascript} alt="JavaScript"/>
                   </OverlayTrigger>
@@ -138,7 +138,7 @@ const Experience = () => {
                 <Col className="icon-container">
                   <OverlayTrigger
                     placement="bottom"
-                    overlay={<Tooltip>React</Tooltip>}
+                    overlay={<Tooltip className="tooltip">React</Tooltip>}
                   >
                     <Image className="icon" src={react} alt="React"/>
                   </OverlayTrigger>
@@ -146,7 +146,7 @@ const Experience = () => {
                 <Col className="icon-container">
                   <OverlayTrigger
                     placement="bottom"
-                    overlay={<Tooltip>Angular</Tooltip>}
+                    overlay={<Tooltip className="tooltip">Angular</Tooltip>}
                   >
                     <Image className="icon" src={angular} alt="Angular"/>
                   </OverlayTrigger>
@@ -154,7 +154,7 @@ const Experience = () => {
                 <Col className="icon-container">
                   <OverlayTrigger
                     placement="bottom"
-                    overlay={<Tooltip>Django</Tooltip>}
+                    overlay={<Tooltip className="tooltip">Django</Tooltip>}
                   >
                     <Image className="icon" src={django} alt="Django"/>
                   </OverlayTrigger>
@@ -164,7 +164,7 @@ const Experience = () => {
                 <Col className="icon-container">
                   <OverlayTrigger
                     placement="bottom"
-                    overlay={<Tooltip>GraphQL</Tooltip>}
+                    overlay={<Tooltip className="tooltip">GraphQL</Tooltip>}
                   >
                     <Image className="icon" src={graphql} alt="GraphQL"/>
                   </OverlayTrigger>
@@ -172,7 +172,7 @@ const Experience = () => {
                 <Col className="icon-container">
                   <OverlayTrigger
                     placement="bottom"
-                    overlay={<Tooltip>Docker</Tooltip>}
+                    overlay={<Tooltip className="tooltip">Docker</Tooltip>}
                   >
                     <Image className="icon" src={docker} alt="Docker"/>
                   </OverlayTrigger>
@@ -180,7 +180,7 @@ const Experience = () => {
                 <Col className="icon-container">
                   <OverlayTrigger
                     placement="bottom"
-                    overlay={<Tooltip>Git</Tooltip>}
+                    overlay={<Tooltip className="tooltip">Git</Tooltip>}
                   >
                     <Image className="icon" src={git} alt="Git"/>
                   </OverlayTrigger>
