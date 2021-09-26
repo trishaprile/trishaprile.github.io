@@ -8,7 +8,8 @@
         font-size: 24px;
         font-weight: 700;
         text-align: center;
-        margin-top: 3rem;
+        margin-top: 2rem;
+        margin-bottom: 1rem;
     }
 
     .project-container {
@@ -34,7 +35,7 @@
                 .project-img {
                     height: auto;
                     width: 500px;
-                    margin: auto;
+                    margin: -1rem;
                     &:hover {
                         transform: translateY(3px);
                         cursor: pointer;
@@ -54,7 +55,7 @@
     margin: 10px !important;
     transform: translate(-50%, -50%) !important;
     box-shadow: 0px 24px 56px 2px rgb(0 0 0 / 20%);
-    transition: 0.5s;
+    transition: 0.3s;
     font-family: 'Mulish';
 
     .modal-content {
@@ -76,11 +77,12 @@
     h4 {
         font-weight: 800;
         font-size: 14px;
+        margin-top: 0.5rem;
     }
 
     h3 {
-        font-weight: 700;
-        font-size: 18px;
+        font-weight: 800;
+        font-size: 16px;
         margin-top: 1rem;
     }
 
@@ -92,7 +94,6 @@
         margin-top: 1rem;
         padding: 1rem;
         border-radius: 50px;
-
 
         p {
             font-size: 14px;
@@ -178,7 +179,7 @@
                 .project {
                     
                     .project-img {
-                        width: 90vw;
+                        width: 95vw;
                     }
                 }
             }

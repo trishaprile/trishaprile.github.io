@@ -52,11 +52,11 @@ const Projects = () => {
               <Modal show={showGrasshopperfund} onHide={handleCloseGrasshopperfund} scrollable={true} dialogClassName="project-modal">
 								<Modal.Header closeButton><h2>Grasshopperfund</h2></Modal.Header>
 								<Modal.Body>
-                  <Fade>
+                  <Fade top>
                     <p>Grasshopperfund is a Startup Marketplace and first funding platform for youth led startups, 
                       bridging the gap between idea and reality for youth ages 13-30 through immediate access to startup coaching & services, 
                       debt-free capital, and an entrepreneur network.</p>
-                    <p><BiTrophy className="trophy" size={20} />2021 UCI Butterworth Product Development Competition 1st Place Winner</p><br/>
+                    <p><BiTrophy className="trophy" size={20} />2021 UCI Butterworth Product Development Competition 1st Place Winner</p>
                     <Row>
                       <Col>
                         <h4>CLIENT</h4>
@@ -97,10 +97,10 @@ const Projects = () => {
               <Modal show={showDFSIAS} onHide={handleCloseDFSIAS} scrollable={true} dialogClassName="project-modal">
 								<Modal.Header closeButton><h2>Dreams for Schools Instructor Assignment Sorter</h2></Modal.Header>
 								<Modal.Body>
-                  <Fade>
-                    <p>The Instructor Assignment Sorter aims to assist DFS program directors by providing an easy way for the director to automatically 
-                      sort the instructors into their preferred program using an algorithm while also supporting manual fine-tune adjustment. 
-                      The application also warehouses all data regarding seasons, schools, programs, and instructors.</p><br/>
+                  <Fade top>
+                    <p>The Instructor Assignment Sorter aims to assist DFS program directors by providing an optimal way for them to automatically 
+                      sort the instructors into their preferred program using a sorting algorithm while also supporting manual fine-tune adjustment. 
+                      The application also warehouses all data regarding seasons, schools, programs, and instructors.</p>
                     <Row>
                       <Col>
                         <h4>CLIENT</h4>
@@ -143,9 +143,10 @@ const Projects = () => {
               <Modal show={showPP} onHide={handleClosePP} scrollable={true} dialogClassName="project-modal">
 								<Modal.Header closeButton><h2>PeterPortal</h2></Modal.Header>
 								<Modal.Body>
-                  <Fade>
-                    <p>PeterPortal is a web application aimed to aid UCI students with course discovery. We consolidate public data available 
-                      on multiple UCI sources on the application to improve the user experience when planning their course schedule.</p><br/>
+                  <Fade top>
+                    <p>PeterPortal is the one-stop-shop for course discovery at UC Irvine. It consolidates public data from official UCI 
+                      sources to aid students when planning their course schedule. Peter’s Roadmap is an interactive tool within PeterPortal
+                      that helps students plan out courses they need to take for each quarter and school year.</p>
                     <Row>
                       <Col>
                         <h4>CLIENT</h4>
@@ -187,8 +188,8 @@ const Projects = () => {
               <Modal show={showTrishaprile} onHide={handleCloseTrishaprile} scrollable={true} dialogClassName="project-modal">
 								<Modal.Header closeButton><h2>trishaprile</h2></Modal.Header>
 								<Modal.Body>
-                  <Fade>
-                    <p>My personal portfolio website!</p><br/>
+                  <Fade top>
+                    <p>My personal portfolio website!</p>
                     <Row>
                       <Col>
                         <h4>CLIENT</h4>
@@ -229,8 +230,8 @@ const Projects = () => {
               <Modal show={showJamForChange} onHide={handleCloseJamForChange} scrollable={true} dialogClassName="project-modal">
 								<Modal.Header closeButton><h2>Jam for Change</h2></Modal.Header>
 								<Modal.Body>
-                  <Fade>
-                    <p>ICS Student Council's Jam for Change is five day long development competition where teams work together to create applications that promote social good.</p><br/>
+                  <Fade top>
+                    <p>ICS Student Council's Jam for Change is a five day long development competition where teams work together to create applications that promote social good.</p>
                     <Row>
                       <Col>
                         <h4>CLIENT</h4>
@@ -244,7 +245,7 @@ const Projects = () => {
                     <Row>
                       <Col>
                         <h4>ROLES</h4>
-                        <p>Sole Developer</p>
+                        <p>Sole Developer, Designer</p>
                       </Col>
                       <Col>
                         <h4>TIMELINE</h4>
@@ -264,11 +265,11 @@ const Projects = () => {
               <Modal show={showCovidulator} onHide={handleCloseCovidulator} scrollable={true} dialogClassName="project-modal">
 								<Modal.Header closeButton><h2>Covidulator</h2></Modal.Header>
 								<Modal.Body>
-                  <Fade>
+                  <Fade top>
                     <p>Covidulator is a web app that calculates the impact of one's actions in regards to preventing the spread of COVID-19.
                       Inspired by the Carbon Footprint Calculator, the app aims to provide a way for people to evaluate how well they are performing in face of the pandemic
                       and take steps to reduce the spread.</p>
-                    <p><BiTrophy className="trophy" size={20} />2021 Jam for Change 2nd Place Winner</p><br/>
+                    <p><BiTrophy className="trophy" size={20} />2021 Jam for Change 2nd Place Winner</p>
                     <Row>
                       <Col>
                         <h4>CLIENT</h4>

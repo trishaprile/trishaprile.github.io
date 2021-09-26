@@ -12,7 +12,7 @@
         h1 {
             font-weight: 700;
             font-size: 48px;
-            margin-top: 5rem;
+            margin-top: 4rem;
         }
     
         h2 {
@@ -26,6 +26,7 @@
             font-size: 18px;
             max-width: 22rem;
             line-height: 26px;
+            margin-top: 0.8rem;
         }
     
         .contact-btn {
@@ -71,6 +72,7 @@
         }
 
         .info-container {
+            order: 2;
 
             h1 {
                 font-size: 42px;
@@ -91,6 +93,7 @@
         }
 
         .img-container {
+            order: 1;
     
             .img {
                 width: 60vw;
