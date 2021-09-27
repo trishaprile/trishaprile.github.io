@@ -1,11 +1,16 @@
 <svg width="672" height="652" viewBox="0 0 672 652" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <circle cx="300" cy="319.258" r="300" fill="#E05D2A"/>
 <circle cx="372" cy="300" r="298.5" stroke="#635D54" stroke-width="3"/>
+<mask id="mask0" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="41" y="52" width="600" height="600">
+<circle cx="341" cy="352" r="300" fill="#C4C4C4"/>
+</mask>
+<g mask="url(#mask0)">
 <g filter="url(#filter0_d)">
-<path d="M36 338C36 172.315 170.315 38 336 38C501.685 38 636 172.315 636 338C636 503.685 501.685 638 336 638C170.315 638 36 503.685 36 338Z" fill="url(#pattern0)" shape-rendering="crispEdges"/>
+<path d="M41 352C41 186.315 175.315 52 341 52V52C506.685 52 641 186.315 641 352V352C641 517.685 506.685 652 341 652V652C175.315 652 41 517.685 41 352V352Z" fill="url(#pattern0)" shape-rendering="crispEdges"/>
+</g>
 </g>
 <defs>
-<filter id="filter0_d" x="26" y="28" width="620" height="620" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<filter id="filter0_d" x="31" y="42" width="620" height="620" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
 <feFlood flood-opacity="0" result="BackgroundImageFix"/>
 <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
 <feOffset/>
