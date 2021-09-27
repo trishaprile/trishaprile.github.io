@@ -3,63 +3,69 @@
     min-height: 90vh;
 
     .content-container {
-        padding: 10% 15%;
-        width: 100%;
-    }
-
-    .info-container {
-
-        h1 {
-            font-weight: 700;
-            font-size: 48px;
-            margin-top: 4rem;
-        }
-    
-        h2 {
-            font-weight: 700;
-            font-size: 36px;
-            margin-top: 1rem;
-        }
-    
-        h3 {
-            font-weight: 600;
-            font-size: 18px;
-            max-width: 22rem;
-            line-height: 26px;
-            margin-top: 0.8rem;
-        }
-    
-        .contact-btn {
-            font-size: 14px;
-            font-weight: 700;
-            background-color: #E05D2A;
-            border: 0;
-            border-radius: 15px;
-            margin: 2rem 0rem;
-            padding: 0.8rem 1rem;
-            width: 8rem;
-            transition: 0.5s;
-            &:hover {
-                background-color: #FAFAFA;
-                box-shadow: 0px 0px 0px 2.5px #FAFAFA, 0px 0px 0px 5px #E05D2A, 0px 0px 0px 10px #FAFAFA, 0px 0px 0px 10.5px #E05D2A;
-                color: #E05D2A;
-                transition: 0.5s;
-            }
-            &:focus {
-                box-shadow: 0px 0px 0px 2.5px #FAFAFA, 0px 0px 0px 5px #E05D2A, 0px 0px 0px 10px #FAFAFA, 0px 0px 0px 10.5px #E05D2A;
-            }
-        }
-    }
-
-    .img-container {
         display: flex;
         justify-content: center;
         align-items: center;
+        margin: auto;
+        padding: 10% 15%;
+        width: 100%;
 
-        .img {
-            height: auto;
-            width: 25rem;
-            margin: 1rem;
+        .info-container {
+
+            h1 {
+                font-weight: 700;
+                font-size: 48px;
+                margin-top: 4rem;
+            }
+        
+            h2 {
+                font-weight: 700;
+                font-size: 36px;
+                margin-top: 1rem;
+            }
+        
+            h3 {
+                font-weight: 600;
+                font-size: 18px;
+                max-width: 22rem;
+                line-height: 26px;
+                margin-top: 0.8rem;
+            }
+        
+            .contact-btn {
+                font-size: 14px;
+                font-weight: 700;
+                background-color: #E05D2A;
+                border: 0;
+                border-radius: 15px 1px 15px 1px;
+                margin: 2rem 0rem;
+                padding: 0.8rem 1.4rem;
+                width: auto;
+                transition: 0.5s;
+                &:hover {
+                    background-color: #FAFAFA;
+                    box-shadow: 0px 0px 0px 2.5px #FAFAFA, 0px 0px 0px 5px #E05D2A, 0px 0px 0px 10px #FAFAFA, 0px 0px 0px 10.5px #E05D2A;
+                    color: #E05D2A;
+                    transition: 0.5s;
+                }
+                &:focus {
+                    background-color: #FAFAFA;
+                    box-shadow: 0px 0px 0px 2.5px #FAFAFA, 0px 0px 0px 5px #E05D2A, 0px 0px 0px 10px #FAFAFA, 0px 0px 0px 10.5px #E05D2A;
+                    color: #E05D2A;
+                    transition: 0.5s;            }
+            }
+        }
+
+        .img-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            .img {
+                height: auto;
+                width: 25rem;
+                margin: 1rem;
+            }
         }
     }
 }
@@ -68,35 +74,35 @@
     #cover {
 
         .content-container {
-            padding: 2% 10%;
-        }
+            padding: 2% 5%;
 
-        .info-container {
-            order: 2;
+            .info-container {
+                order: 2;
 
-            h1 {
-                font-size: 42px;
-                margin-top: 1rem;
+                h1 {
+                    font-size: 42px;
+                    margin-top: 1rem;
+                }
+
+                h2 {
+                    font-size: 32px;
+                }
+
+                h3 {
+                    font-size: 16px;
+                }
+
+                .contact-btn {
+                    margin-top: 1rem;
+                }
             }
 
-            h2 {
-                font-size: 32px;
-            }
-
-            h3 {
-                font-size: 16px;
-            }
-
-            .contact-btn {
-                margin-top: 1rem;
-            }
-        }
-
-        .img-container {
-            order: 1;
-    
-            .img {
-                width: 60vw;
+            .img-container {
+                order: 1;
+        
+                .img {
+                    width: 60vw;
+                }
             }
         }
     }

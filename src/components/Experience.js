@@ -29,7 +29,7 @@ const Experience = () => {
       <Row className="content-container" xs={1} sm={1} md={1} lg={2}> 
         <Col className="jobs-container">
           <Fade>
-            <h1 style={{ marginBottom: '3rem' }}>my experience</h1>
+            <h1>my experience</h1>
           </Fade>
           <Col className="jobs">
             <Fade top>

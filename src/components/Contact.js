@@ -5,7 +5,6 @@ import { Row } from "react-bootstrap";
 import { Element } from 'react-scroll';
 import { scroller } from 'react-scroll';
 import Fade from 'react-reveal/Fade';
-import Bounce from 'react-reveal/Bounce';
 import { FiMail } from "react-icons/fi";
 import { SiLinkedin } from "react-icons/si";
 import { SiGithub } from "react-icons/si";

@@ -102,9 +102,9 @@
         font-size: 14px;
         background-color: #E05D2A;
         border: 0;
-        border-radius: 15px;
+        border-radius: 15px 1px 15px 1px;
         margin: 2rem 1rem 1rem 0rem;
-        padding: 0.8rem 1.5rem;
+        padding: 0.8rem 1.4rem;
         width: auto;
         transition: 0.5s;
         float: left;
@@ -115,9 +115,10 @@
             transition: 0.5s;
         }
         &:focus {
-            box-shadow: 0px 0px 0px 2.5px #FAFAFA, 0px 0px 0px 5px #E05D2A, 0px 0px 0px 10px #FAFAFA, 0px 0px 0px 10.5px #E05D2A;
             background-color: #FAFAFA;
-            color: #E05D2A !important;
+            color: #E05D2A;
+            box-shadow: 0px 0px 0px 2.5px #FAFAFA, 0px 0px 0px 5px #E05D2A, 0px 0px 0px 10px #FAFAFA, 0px 0px 0px 10.5px #E05D2A;
+            transition: 0.5s;
         }
     }
 
@@ -128,21 +129,25 @@
         color: #E05D2A;
         border-color: #E05D2A;
         border-width: 2px;
-        border-radius: 15px;
+        border-radius: 15px 1px 15px 1px;
         margin-top: 2rem;
-        padding: 0.7rem 1.5rem;
+        padding: 0.65rem 1.4rem;
         width: auto;
         transition: 0.5s;
         float: left;
         &:hover {
             background-color: #E05D2A;
             color: #FAFAFA;
+            box-shadow: 0px 0px 0px 1.5px #E05D2A, 0px 0px 0px 5px #FAFAFA, 0px 0px 0px 6px #E05D2A, 0px 0px 0px 10.5px #FAFAFA;
             transition: 0.5s;
             border-color: #E05D2A;
         }
         &:focus {
             background-color: #E05D2A;
             color: #FAFAFA;
+            box-shadow: 0px 0px 0px 1.5px #E05D2A, 0px 0px 0px 5px #FAFAFA, 0px 0px 0px 6px #E05D2A, 0px 0px 0px 10.5px #FAFAFA;
+            transition: 0.5s;
+            border-color: #E05D2A;
         }
     }
 
