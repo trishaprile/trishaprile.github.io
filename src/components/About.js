@@ -5,10 +5,10 @@ import { Row, Col, Image } from "react-bootstrap";
 import { Element } from 'react-scroll';
 import Fade from 'react-reveal/Fade';
 
-import me from "../assets/me.jpeg";
-import projectManagement  from "../assets/project_management.svg";
-import softwareDevelopment  from "../assets/software_development.svg";
-import UIUXdesign  from "../assets/uiux_design.svg";
+import me from "../assets/picture_of_me.svg";
+import projectManagement  from "../assets/role_icons/project_management.svg";
+import softwareDevelopment  from "../assets/role_icons/software_development.svg";
+import UIUXdesign  from "../assets/role_icons/uiux_design.svg";
 
 const About = () => { 
   return (

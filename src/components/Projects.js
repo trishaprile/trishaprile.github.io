@@ -6,12 +6,12 @@ import { Element } from 'react-scroll';
 import Fade from 'react-reveal/Fade';
 import { BiTrophy } from "react-icons/bi";
 
-import grasshopperfund from "../assets/project_covers/grasshopperfund.png";
-import dfs_ias from "../assets/project_covers/dfs ias.png";
-import peter_portal from "../assets/project_covers/peter portal.png";
-import trishaprile from "../assets/project_covers/trishaprile.png";
-import jam_for_change from "../assets/project_covers/jam for change.png";
-import covidulator from "../assets/project_covers/covidulator.png";
+import grasshopperfund from "../assets/project_covers/grasshopperfund.svg";
+import dfs_ias from "../assets/project_covers/dfs ias.svg";
+import peter_portal from "../assets/project_covers/peter portal.svg";
+import trishaprile from "../assets/project_covers/trishaprile.svg";
+import jam_for_change from "../assets/project_covers/jam for change.svg";
+import covidulator from "../assets/project_covers/covidulator.svg";
 
 const Projects = () => { 
 

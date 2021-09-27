@@ -6,7 +6,7 @@ import { Element } from 'react-scroll';
 import { scroller } from 'react-scroll';
 import Fade from 'react-reveal/Fade';
 
-import img  from "../assets/cover_img.svg";
+import img from "../assets/cover_img.svg";
 
 const Cover = () => { 
   return (

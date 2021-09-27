@@ -12,10 +12,9 @@
     }
 
     .logo {
-        font-weight: 700;
-        font-size: 24px;
         margin-left: 2rem;
-        color: #E05D2A !important;
+        height: auto;
+        width: 11rem;
         &:hover {
             transform: translateY(2px);
             cursor: pointer;
@@ -63,7 +62,8 @@
         }
 
         .logo {
-            margin-left: 1rem;
+            margin-left: 0rem;
+            width: 9rem;
         }
 
         .nav-link {

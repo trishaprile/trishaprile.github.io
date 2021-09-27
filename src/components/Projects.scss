@@ -35,7 +35,7 @@
                 .project-img {
                     height: auto;
                     width: 500px;
-                    margin: -1rem;
+                    margin: 1rem;
                     &:hover {
                         transform: translateY(3px);
                         cursor: pointer;
@@ -165,9 +165,10 @@
             .project-row {
     
                 .project {
+                    width: 100%;
                     
                     .project-img {
-                        width: 95vw;
+                        width: 80vw;
                     }
                 }
             }

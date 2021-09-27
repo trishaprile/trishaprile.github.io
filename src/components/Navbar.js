@@ -1,10 +1,12 @@
 import React, { useState, useEffect } from 'react';
 import './Navbar.scss';
 
-import { Nav, Navbar } from "react-bootstrap";
+import { Nav, Navbar, Image } from "react-bootstrap";
 import { scroller } from 'react-scroll';
 import { RiMenu4Line } from "react-icons/ri";
 import Fade from 'react-reveal/Fade';
+
+import logo from "../assets/trishaprile_logo.svg";
 
 const NavigationBar = () => { 
   let listener = null;
@@ -33,14 +35,13 @@ const NavigationBar = () => {
       <Navbar collapseOnSelect expand="lg" fixed="top" className={scrollState === "top" ? "nav-top" : "nav"}>
         <Fade left>
           <Navbar.Brand 
-            className="logo"
             onClick={() => scroller.scrollTo('cover', {
               smooth: true,
               offset: -100,
               duration: 500,
             })}
           >
-            trishaprile
+            <Image src={logo} className="logo" />
           </Navbar.Brand>
         </Fade>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" className="toggle">
