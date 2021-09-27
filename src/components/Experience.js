@@ -81,7 +81,7 @@ const Experience = () => {
             <h1>toolbox</h1>
           </Fade>
           <div className="toolbox">
-            <Fade top>
+            <Fade>
               <Row xs={3}>
                 <Col className="icon-container">
                   <OverlayTrigger

@@ -84,7 +84,7 @@ const Projects = () => {
                     <div className="badge"><p>Django</p></div>
                     <div className="badge"><p>PostgreSQL</p></div>
                     <div className="badge"><p>Figma</p></div>
-                    <div className="badge"><p>Bootstrap</p></div>
+                    <div className="badge"><p>Docker</p></div>
                     <div className="badge"><p>AWS</p></div>
                     <Button className="primary-btn" href="https://grasshopperfund.com/" rel="noreferrer" target="_blank">VISIT SITE</Button>
                     <Button className="secondary-btn" href="https://innovation.uci.edu/2021/03/uci-startup-makes-semi-finals-at-blackstone-launchpad-pitch-competition/" rel="noreferrer" target="_blank">READ ARTICLE</Button>
@@ -173,7 +173,7 @@ const Projects = () => {
                       <div className="badge"><p>GraphQL</p></div>
                       <div className="badge"><p>ExpressJS</p></div>
                       <div className="badge"><p>MongoDB</p></div>
-                      <div className="badge"><p>ElasticSearch</p></div>
+                      <div className="badge"><p>Elasticsearch</p></div>
                       <div className="badge"><p>TypeScript</p></div>
                       <div className="badge"><p>PeterPortal API</p></div>
                     </div>
