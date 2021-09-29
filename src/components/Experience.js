@@ -17,7 +17,7 @@ import css from "../assets/toolbox_icons/css.png";
 import javascript from "../assets/toolbox_icons/javascript.png";
 import react from "../assets/toolbox_icons/react.png";
 import angular from "../assets/toolbox_icons/angular.png";
-import django from "../assets/toolbox_icons/django.png";
+import sass from "../assets/toolbox_icons/sass.png";
 import graphql from "../assets/toolbox_icons/graphql.png";
 import docker from "../assets/toolbox_icons/docker.png";
 import git from "../assets/toolbox_icons/git.png";
@@ -45,11 +45,11 @@ const Experience = () => {
               </Row>
               <Row className="job" xs={8} sm={8} md={8} lg={8}>
                 <Col className="logo-container" xs={2} sm={2} md={2} lg={2}>
-                  <a href="https://peterportal-client.herokuapp.com/" target="_blank" rel="noreferrer"><Image className="logo" src={peterportal} alt="StartSmart"/></a>
+                  <a href="https://peterportal-client.herokuapp.com/about" target="_blank" rel="noreferrer"><Image className="logo" src={peterportal} alt="StartSmart"/></a>
                 </Col>
                 <Col className="info-container" xs={9} sm={9} md={9} lg={9}>
                   <h3 className="years">2020 - 2021</h3>
-                  <h2 className="company"><a href="https://peterportal-client.herokuapp.com/" target="_blank" rel="noreferrer">PeterPortal</a></h2>
+                  <h2 className="company"><a href="https://peterportal-client.herokuapp.com/about" target="_blank" rel="noreferrer">PeterPortal</a></h2>
                   <p className="role">Project Manager</p>
                 </Col>
               </Row>
@@ -70,7 +70,7 @@ const Experience = () => {
                 <Col className="info-container" xs={9} sm={9} md={9} lg={9}>
                   <h3 className="years">2017</h3>
                   <h2 className="company"><a href="https://www.boeing.com/" target="_blank" rel="noreferrer">Boeing</a></h2>
-                  <p className="role">Software Engineer Intern</p>
+                  <p className="role">Software Engineering Intern</p>
                 </Col>
               </Row>
             </Fade>
@@ -102,9 +102,9 @@ const Experience = () => {
                 <Col className="icon-container">
                   <OverlayTrigger
                     placement="bottom"
-                    overlay={<Tooltip className="tooltip">Bootstrap</Tooltip>}
+                    overlay={<Tooltip className="tooltip">Sass</Tooltip>}
                   >
-                    <Image className="icon" src={bootstrap} alt="Bootstrap"/>
+                    <Image className="icon" src={sass} alt="Sass"/>
                   </OverlayTrigger>
                 </Col>
               </Row>
@@ -146,17 +146,17 @@ const Experience = () => {
                 <Col className="icon-container">
                   <OverlayTrigger
                     placement="bottom"
-                    overlay={<Tooltip className="tooltip">Angular</Tooltip>}
+                    overlay={<Tooltip className="tooltip">Bootstrap</Tooltip>}
                   >
-                    <Image className="icon" src={angular} alt="Angular"/>
+                    <Image className="icon" src={bootstrap} alt="Bootstrap"/>
                   </OverlayTrigger>
                 </Col>
                 <Col className="icon-container">
                   <OverlayTrigger
                     placement="bottom"
-                    overlay={<Tooltip className="tooltip">Django</Tooltip>}
+                    overlay={<Tooltip className="tooltip">GraphQL</Tooltip>}
                   >
-                    <Image className="icon" src={django} alt="Django"/>
+                    <Image className="icon" src={graphql} alt="GraphQL"/>
                   </OverlayTrigger>
                 </Col>
               </Row>
@@ -164,9 +164,9 @@ const Experience = () => {
                 <Col className="icon-container">
                   <OverlayTrigger
                     placement="bottom"
-                    overlay={<Tooltip className="tooltip">GraphQL</Tooltip>}
+                    overlay={<Tooltip className="tooltip">Angular</Tooltip>}
                   >
-                    <Image className="icon" src={graphql} alt="GraphQL"/>
+                    <Image className="icon" src={angular} alt="Angular"/>
                   </OverlayTrigger>
                 </Col>
                 <Col className="icon-container">

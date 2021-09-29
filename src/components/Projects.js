@@ -53,10 +53,10 @@ const Projects = () => {
 								<Modal.Header closeButton><h2>Grasshopperfund</h2></Modal.Header>
 								<Modal.Body>
                   <Fade top>
-                    <p>Grasshopperfund is a Startup Marketplace and first funding platform for youth led startups, 
+                    <p>Grasshopperfund is a startup marketplace and first funding platform for youth-led startups, 
                       bridging the gap between idea and reality for youth ages 13-30 through immediate access to startup coaching & services, 
-                      debt-free capital, and an entrepreneur network.</p>
-                    <p><BiTrophy className="achievement-icon" size={20} />2021 UCI Butterworth Product Development Competition 1st Place Winner</p>
+                      debt-free capital, and an entrepreneurial network.</p>
+                    <p><BiTrophy className="achievement-icon" size={20} /><a className="link" href="https://tech.uci.edu/competitions/" rel="noreferrer" target="_blank">2021 UCI Butterworth Product Development Competition 1st Place Winner</a></p>
                     <Row>
                       <Col>
                         <h4>CLIENT</h4>
@@ -77,13 +77,20 @@ const Projects = () => {
                         <p>Crowdfunding & Social Web App</p>
                       </Col>
                     </Row>
+                    <Row>
+                      <Col>
+                        <h4>RESPONSIBILITIES</h4>
+                        <li>Determined product vision and strategy.</li>
+                        <li>Led the planning, design, and development of product features, from conception to launch.</li>
+                        <li> Conducted user and market research, wrote requirements specifications, and performed usability testing.</li>
+                      </Col>
+                    </Row>
                     <h3>BUILT WITH</h3>
                     <div className="badge"><p>React</p></div>
                     <div className="badge"><p>GraphQL</p></div>
                     <div className="badge"><p>REST</p></div>
                     <div className="badge"><p>Django</p></div>
                     <div className="badge"><p>PostgreSQL</p></div>
-                    <div className="badge"><p>Figma</p></div>
                     <div className="badge"><p>Docker</p></div>
                     <div className="badge"><p>AWS</p></div>
                     <Button className="primary-btn" href="https://grasshopperfund.com/" rel="noreferrer" target="_blank">VISIT SITE</Button>
@@ -114,11 +121,19 @@ const Projects = () => {
                     <Row>
                       <Col>
                         <h4>ROLES</h4>
-                        <p>UI/UX Designer, Software Developer</p>
+                        <p>Software Developer, UI/UX Designer</p>
                       </Col>
                       <Col>
                         <h4>PRODUCT</h4>
                         <p>Management Web App</p>                
+                      </Col>
+                    </Row>
+                    <Row>
+                      <Col>
+                        <h4>RESPONSIBILITIES</h4>
+                        <li>Designed low-fidelity wireframes and high-fidelity mockups.</li>
+                        <li>Implemented the sorting algorithm in the front-end.</li>
+                        <li>Developed the instructor sorter page and drag-and-drop feature using <a className="link" href="https://github.com/atlassian/react-beautiful-dnd">react-beautiful-dnd</a>.</li>
                       </Col>
                     </Row>
                     <h3>BUILT WITH</h3>
@@ -146,7 +161,7 @@ const Projects = () => {
                   <Fade top>
                     <p>PeterPortal is the one-stop-shop for course discovery at UC Irvine. It consolidates public data from official UCI 
                       sources to aid students when planning their course schedule. Peter’s Roadmap is an interactive tool within PeterPortal
-                      that helps students plan out courses they need to take for each quarter and school year.</p>
+                      for students to customize a holistic plan of courses they need to take each quarter and school year.</p>
                     <Row>
                       <Col>
                         <h4>CLIENT</h4>
@@ -165,6 +180,13 @@ const Projects = () => {
                       <Col>
                         <h4>PRODUCT</h4>
                         <p>Portal Web App</p>
+                      </Col>
+                    </Row>
+                    <Row>
+                      <Col>
+                        <h4>RESPONSIBILITIES</h4>
+                        <li>Built a roadmap, prioritized tasks and features, and designed and implemented data-driven wireframes and prototypes.</li>
+                        <li>Led a team of UI/UX designers, conducted UX research through competitive analysis and usability evaluations, and developed visual branding.</li>
                       </Col>
                     </Row>
                     <h3>BUILT WITH</h3>
@@ -210,6 +232,13 @@ const Projects = () => {
                         <p>Web App</p>
                       </Col>
                     </Row>
+                    <Row>
+                      <Col>
+                        <h4>RESPONSIBILITIES</h4>
+                        <li>Designed and implemented the app.</li>
+                        <li>Optimized responsiveness and accessibility for multiple devices.</li>
+                      </Col>
+                    </Row>
                     <h3>BUILT WITH</h3>
                     <div className="badge"><p>React</p></div>
                     <div className="badge"><p>Bootstrap</p></div>
@@ -252,6 +281,12 @@ const Projects = () => {
                         <p>Informational Web App</p>
                       </Col>
                     </Row>
+                    <Row>
+                      <Col>
+                        <h4>RESPONSIBILITIES</h4>
+                        <li>Designed and implemented the app.</li>
+                      </Col>
+                    </Row>
                     <h3>BUILT WITH</h3>
                     <div className="badge"><p>React</p></div>
                     <Button className="primary-btn" href="https://www.icssc-jamforchange.com/" rel="noreferrer" target="_blank">VISIT SITE</Button>
@@ -288,6 +323,12 @@ const Projects = () => {
                       <Col>
                         <h4>PRODUCT</h4>
                         <p>Interactive Web App</p>
+                      </Col>
+                    </Row>
+                    <Row>
+                      <Col>
+                        <h4>RESPONSIBILITIES</h4>
+                        <li>Led the design and implemention of the app.</li>                    
                       </Col>
                     </Row>
                     <h3>BUILT WITH</h3>

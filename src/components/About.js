@@ -43,9 +43,9 @@ const About = () => {
           </Fade>
           <Fade top cascade>
             <div className="skills">
-              <div className="badge"><p>Scrum & Agile Management</p></div>
               <div className="badge"><p>Product Research & Strategies</p></div>
-              <div className="badge"><p>Requirements Specification</p></div>
+              <div className="badge"><p>Feature Specification & Roadmapping</p></div>
+              <div className="badge"><p>Scrum & Agile Management</p></div>
             </div>
           </Fade>
         </Col>
@@ -58,7 +58,7 @@ const About = () => {
             <div className="skills">
               <div className="badge"><p>Frontend Development</p></div>
               <div className="badge"><p>Backend Development</p></div>
-              <div className="badge"><p>Quality Assurance</p></div>
+              <div className="badge"><p>Web & Mobile Development</p></div>
             </div>
           </Fade>
         </Col>
@@ -71,7 +71,7 @@ const About = () => {
             <div className="skills">
               <div className="badge"><p>Wireframing & Prototyping</p></div>
               <div className="badge"><p>User Research & Testing</p></div>
-              <div className="badge"><p>Usability Evaluation</p></div>
+              <div className="badge"><p>Visual Communication</p></div>
             </div>
           </Fade>
         </Col>
