@@ -9,7 +9,7 @@ import { FiMail } from "react-icons/fi";
 import { SiLinkedin } from "react-icons/si";
 import { SiGithub } from "react-icons/si";
 import { SiGitlab } from "react-icons/si";
-import { SiInstagram } from "react-icons/si";
+import { SiDribbble } from "react-icons/si";
 import { BsChevronCompactUp } from "react-icons/bs";
 
 const Contact = () => { 
@@ -26,7 +26,7 @@ const Contact = () => {
           <a href="https://www.linkedin.com/in/trishaprile/" target="_blank" rel="noreferrer"><SiLinkedin className="icon"/></a>
           <a href="https://www.github.com/trishaprile/" target="_blank" rel="noreferrer"><SiGithub className="icon"/></a>
           <a href="https://www.gitlab.com/trishaprile/" target="_blank" rel="noreferrer"><SiGitlab className="icon"/></a>
-          <a href="https://www.instagram.com/trishaprile/" target="_blank" rel="noreferrer"><SiInstagram className="icon"/></a>
+          <a href="https://dribbble.com/trishaprile/" target="_blank" rel="noreferrer"><SiDribbble className="icon"/></a>
         </Fade>
       </Row>
       <Fade top>
