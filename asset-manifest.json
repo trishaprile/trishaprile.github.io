@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.7bc79d9f.chunk.css",
-    "main.js": "/static/js/main.2b2ac10d.chunk.js",
-    "main.js.map": "/static/js/main.2b2ac10d.chunk.js.map",
+    "main.js": "/static/js/main.020f9e3d.chunk.js",
+    "main.js.map": "/static/js/main.020f9e3d.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.06dd2115.js",
     "runtime-main.js.map": "/static/js/runtime-main.06dd2115.js.map",
     "static/css/2.43b2b750.chunk.css": "/static/css/2.43b2b750.chunk.css",
@@ -12,7 +12,7 @@
     "static/css/2.43b2b750.chunk.css.map": "/static/css/2.43b2b750.chunk.css.map",
     "static/css/main.7bc79d9f.chunk.css.map": "/static/css/main.7bc79d9f.chunk.css.map",
     "static/js/2.a63d29c4.chunk.js.LICENSE.txt": "/static/js/2.a63d29c4.chunk.js.LICENSE.txt",
-    "static/media/Trisha Le Resume.d77c5d54.pdf": "/static/media/Trisha Le Resume.d77c5d54.pdf",
+    "static/media/Trisha Le Resume.fa97d357.pdf": "/static/media/Trisha Le Resume.fa97d357.pdf",
     "static/media/cover_img.09b07e16.svg": "/static/media/cover_img.09b07e16.svg",
     "static/media/covidulator.b2402bde.svg": "/static/media/covidulator.b2402bde.svg",
     "static/media/dfs ias.0954ec20.svg": "/static/media/dfs ias.0954ec20.svg",
@@ -32,6 +32,6 @@
     "static/css/2.43b2b750.chunk.css",
     "static/js/2.a63d29c4.chunk.js",
     "static/css/main.7bc79d9f.chunk.css",
-    "static/js/main.2b2ac10d.chunk.js"
+    "static/js/main.020f9e3d.chunk.js"
   ]
 }
