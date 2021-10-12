@@ -45,7 +45,7 @@ const About = () => {
             <div className="skills">
               <div className="badge"><p>Product Research & Strategies</p></div>
               <div className="badge"><p>Feature Specification & Roadmapping</p></div>
-              <div className="badge"><p>Scrum & Agile Management</p></div>
+              <div className="badge"><p>Agile & Scrum Management</p></div>
             </div>
           </Fade>
         </Col>

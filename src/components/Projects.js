@@ -139,11 +139,12 @@ const Projects = () => {
                     <h3>BUILT WITH</h3>
                     <div className="badge"><p>React</p></div>
                     <div className="badge"><p>MySQL</p></div>
-                    <div className="badge"><p>Express</p></div>
+                    <div className="badge"><p>Express.js</p></div>
                     <div className="badge"><p>Node.js</p></div>
                     <div className="badge"><p>Firebase</p></div>
                     <div className="badge"><p>Figma</p></div>
                     <div className="badge"><p>Bootstrap</p></div>
+                    <div className="badge"><p>styled-components</p></div>
                     <Button className="primary-btn" href="https://drive.google.com/file/d/17-RU8pIZirdjOSQ6bpYtekCQBNaAhXJL/view" rel="noreferrer" target="_blank">WATCH VIDEO</Button>
                   </Fade>
                 </Modal.Body>
@@ -198,6 +199,8 @@ const Projects = () => {
                       <div className="badge"><p>Elasticsearch</p></div>
                       <div className="badge"><p>TypeScript</p></div>
                       <div className="badge"><p>PeterPortal API</p></div>
+                      <div className="badge"><p>Figma</p></div>
+                      <div className="badge"><p>Semantic UI</p></div>
                     </div>
                     <Button className="primary-btn" href="https://peterportal-client.herokuapp.com/about" rel="noreferrer" target="_blank">VISIT SITE</Button>
                     <Button className="secondary-btn" href="https://icsscprojects.medium.com/peters-roadmap-peterportal-s-4-year-course-planner-64072e1adfb5" rel="noreferrer" target="_blank">READ ARTICLE</Button>
@@ -243,7 +246,6 @@ const Projects = () => {
                     <div className="badge"><p>React</p></div>
                     <div className="badge"><p>Bootstrap</p></div>
                     <div className="badge"><p>Sass</p></div>
-                    <div className="badge"><p>Figma</p></div>
                     <Button className="primary-btn" href="/">VISIT SITE</Button>
                     <Button className="secondary-btn" href="https://github.com/trishaprile/trishaprile.github.io" rel="noreferrer" target="_blank">VIEW REPO</Button>
                   </Fade>
