@@ -29,7 +29,7 @@ const About = () => {
               rel="noreferrer" target="_blank">Informatics</a> and a minor in Education. 
               My studies involved the understanding and practice of human computer interaction, 
               software design, and human behavior with an emphasis on people and design.</p>
-            <p>I’m passionate about exploring the possibilities of project & product management, 
+            <p>I’m passionate about exploring the possibilities of product & project management, 
               software development, and UI & UX design and research, with a focus on education, 
               accessibility, inclusion, and universal usability.</p>
           </Fade>

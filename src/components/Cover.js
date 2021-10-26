@@ -18,7 +18,7 @@ const Cover = () => {
             <h2>I'm Trisha,</h2>
           </Fade>
           <Fade>
-            <h3>a manager, developer, and designer who enjoys creating impactful experiences, from ideation to execution.</h3>
+            <h3>a developer and designer who enjoys creating impactful experiences, from ideation to execution.</h3>
           </Fade>
           <Fade bottom>
             <Button 
