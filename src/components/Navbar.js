@@ -1,4 +1,5 @@
-import React, { useState, useEffect } from 'react';
+import React from 'react';
+import ThemeChanger from '../ThemeChanger';
 import './Navbar.scss';
 
 import { Nav, Navbar, Image } from "react-bootstrap";
@@ -9,30 +10,9 @@ import Fade from 'react-reveal/Fade';
 import logo from "../assets/trishaprile_logo.svg";
 
 const NavigationBar = () => { 
-  let listener = null;
-  const [scrollState, setScrollState] = useState("top");
-
-  useEffect(() => {
-    listener = document.addEventListener("scroll", e => {
-      var scrolled = document.scrollingElement.scrollTop
-      if (scrolled >= 150) {
-        if (scrollState !== "amir") {
-          setScrollState("amir")
-        }
-      } else {
-        if (scrollState !== "top") {
-          setScrollState("top")
-        }
-      }
-    })
-    return () => {
-      document.removeEventListener("scroll", listener)
-    }
-  }, [scrollState])
-
   return (
     <div className="navbar">
-      <Navbar collapseOnSelect expand="lg" fixed="top" className={scrollState === "top" ? "nav-top" : "nav"}>
+      <Navbar collapseOnSelect expand="lg" fixed="top" className="nav">
         <Fade left>
           <Navbar.Brand 
             onClick={() => scroller.scrollTo('cover', {
@@ -90,6 +70,7 @@ const NavigationBar = () => {
               >
                 contact
               </Nav.Link>
+              <ThemeChanger />
             </Fade>
           </Nav>
         </Navbar.Collapse>

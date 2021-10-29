@@ -1,0 +1,52 @@
+$bg-dark-mode: rgb(24, 23, 23);
+$white-text: #FAFAFA;
+
+.App {
+  font-family: 'Mulish', sans-serif;
+}
+
+body {
+  background-color: #FAFAFA !important;
+  color: #373737;
+}
+
+body.dark-mode {
+  background-color: $bg-dark-mode !important;
+  color: #FAFAFA;
+
+  .navbar {
+    background-color: $bg-dark-mode;
+    color: #FAFAFA;
+  }
+
+  .nav-link {
+    color: #FAFAFA !important;
+  }
+
+  .navbar-toggler {
+    background: $bg-dark-mode;
+    color: #FAFAFA !important;
+  }
+
+  .navbar-collapse {
+    background: $bg-dark-mode;
+    color: #FAFAFA;
+  }
+
+  .modal-content {
+    background-color: $bg-dark-mode;
+    color: #FAFAFA;
+  }
+
+  .primary:hover {
+    background-color: $bg-dark-mode;
+    box-shadow: 0px 0px 0px 2.5px $bg-dark-mode, 0px 0px 0px 5px #E05D2A, 0px 0px 0px 10px $bg-dark-mode, 0px 0px 0px 10.5px #E05D2A;
+  }
+
+  .secondary {
+    background-color: $bg-dark-mode;
+    &:hover {
+      box-shadow: 0px 0px 0px 2.5px $bg-dark-mode, 0px 0px 0px 5px #E05D2A, 0px 0px 0px 10px $bg-dark-mode, 0px 0px 0px 10.5px #E05D2A;
+    }
+  }
+}

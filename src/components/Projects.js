@@ -93,8 +93,8 @@ const Projects = () => {
                     <div className="badge"><p>PostgreSQL</p></div>
                     <div className="badge"><p>Docker</p></div>
                     <div className="badge"><p>AWS</p></div>
-                    <Button className="primary-btn" href="https://grasshopperfund.com/" rel="noreferrer" target="_blank">VISIT SITE</Button>
-                    <Button className="secondary-btn" href="https://innovation.uci.edu/2021/03/uci-startup-makes-semi-finals-at-blackstone-launchpad-pitch-competition/" rel="noreferrer" target="_blank">READ ARTICLE</Button>
+                    <Button className="primary-btn primary" href="https://grasshopperfund.com/" rel="noreferrer" target="_blank">VISIT SITE</Button>
+                    <Button className="secondary-btn secondary" href="https://innovation.uci.edu/2021/03/uci-startup-makes-semi-finals-at-blackstone-launchpad-pitch-competition/" rel="noreferrer" target="_blank">READ ARTICLE</Button>
                   </Fade>
                 </Modal.Body>
 							</Modal>
@@ -145,7 +145,7 @@ const Projects = () => {
                     <div className="badge"><p>Figma</p></div>
                     <div className="badge"><p>Bootstrap</p></div>
                     <div className="badge"><p>styled-components</p></div>
-                    <Button className="primary-btn" href="https://drive.google.com/file/d/17-RU8pIZirdjOSQ6bpYtekCQBNaAhXJL/view" rel="noreferrer" target="_blank">WATCH VIDEO</Button>
+                    <Button className="primary-btn primary" href="https://drive.google.com/file/d/17-RU8pIZirdjOSQ6bpYtekCQBNaAhXJL/view" rel="noreferrer" target="_blank">WATCH VIDEO</Button>
                   </Fade>
                 </Modal.Body>
 							</Modal>
@@ -202,8 +202,8 @@ const Projects = () => {
                       <div className="badge"><p>Figma</p></div>
                       <div className="badge"><p>Semantic UI</p></div>
                     </div>
-                    <Button className="primary-btn" href="https://peterportal-client.herokuapp.com/about" rel="noreferrer" target="_blank">VISIT SITE</Button>
-                    <Button className="secondary-btn" href="https://icsscprojects.medium.com/peters-roadmap-peterportal-s-4-year-course-planner-64072e1adfb5" rel="noreferrer" target="_blank">READ ARTICLE</Button>
+                    <Button className="primary-btn primary" href="https://peterportal-client.herokuapp.com/about" rel="noreferrer" target="_blank">VISIT SITE</Button>
+                    <Button className="secondary-btn secondary" href="https://icsscprojects.medium.com/peters-roadmap-peterportal-s-4-year-course-planner-64072e1adfb5" rel="noreferrer" target="_blank">READ ARTICLE</Button>
                   </Fade>
                 </Modal.Body>
 							</Modal>
@@ -246,8 +246,8 @@ const Projects = () => {
                     <div className="badge"><p>React</p></div>
                     <div className="badge"><p>Bootstrap</p></div>
                     <div className="badge"><p>Sass</p></div>
-                    <Button className="primary-btn" href="/">VISIT SITE</Button>
-                    <Button className="secondary-btn" href="https://github.com/trishaprile/trishaprile.github.io" rel="noreferrer" target="_blank">VIEW REPO</Button>
+                    <Button className="primary-btn primary" href="/">VISIT SITE</Button>
+                    <Button className="secondary-btn secondary" href="https://github.com/trishaprile/trishaprile.github.io" rel="noreferrer" target="_blank">VIEW REPO</Button>
                   </Fade>
 								</Modal.Body>
 							</Modal>
@@ -291,8 +291,8 @@ const Projects = () => {
                     </Row>
                     <h3>BUILT WITH</h3>
                     <div className="badge"><p>React</p></div>
-                    <Button className="primary-btn" href="https://www.icssc-jamforchange.com/" rel="noreferrer" target="_blank">VISIT SITE</Button>
-                    <Button className="secondary-btn" href="https://github.com/trishaprile/jam-for-change-2021" rel="noreferrer" target="_blank">VIEW REPO</Button>
+                    <Button className="primary-btn primary" href="https://www.icssc-jamforchange.com/" rel="noreferrer" target="_blank">VISIT SITE</Button>
+                    <Button className="secondary-btn secondary" href="https://github.com/trishaprile/jam-for-change-2021" rel="noreferrer" target="_blank">VIEW REPO</Button>
                   </Fade>
                 </Modal.Body>
 							</Modal>
@@ -335,8 +335,8 @@ const Projects = () => {
                     </Row>
                     <h3>BUILT WITH</h3>
                     <div className="badge"><p>React</p></div>
-                    <Button className="primary-btn" href="https://nmpham2.github.io/covidulator/#/" rel="noreferrer" target="_blank">VISIT SITE</Button>
-                    <Button className="secondary-btn" href="https://github.com/trishaprile/covidulator" rel="noreferrer" target="_blank">VIEW REPO</Button>
+                    <Button className="primary-btn primary" href="https://nmpham2.github.io/covidulator/#/" rel="noreferrer" target="_blank">VISIT SITE</Button>
+                    <Button className="secondary-btn secondary" href="https://github.com/trishaprile/covidulator" rel="noreferrer" target="_blank">VIEW REPO</Button>
                   </Fade>
                 </Modal.Body>
 							</Modal>

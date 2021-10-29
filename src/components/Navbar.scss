@@ -2,13 +2,8 @@
     width: 100%;
     height: 10vh;
 
-    .nav-top {
-        background-color: #FAFAFA !important;
-    }
-
     .nav {
-        background-color: #FAFAFA !important;
-        box-shadow: 0px 5px 25px 10px rgba(168, 168, 168, 0.1);
+        background-color: #FAFAFA;
     }
 
     .logo {
@@ -39,22 +34,22 @@
     .toggle {
         border: none !important;
         color: #373737 !important;
-    }
-    
+    }    
 }
 
 @media screen and (max-width: 991px) {
     .navbar {
         
         .navbar-toggler {
-            background: #FAFAFA !important;
+            color: #373737 !important;
+            background: #FAFAFA;
             transition: 0.3s;
         }
 
         .navbar-collapse {
             width: 100%;
             overflow-x: hidden;
-            background: #FAFAFA !important;
+            background: #FAFAFA;
             border-radius: 15px;
             padding: 0.5rem !important;
             box-shadow: 0px 4px 50px 10px rgba(168, 168, 168, 0.1);

@@ -64,7 +64,8 @@
                     }
         
                     a {
-                        color: #373737 !important;
+                        // color: #373737 !important;
+                        color: inherit;
                         &:hover {
                             text-decoration: none;
                             color: #E05D2A !important;

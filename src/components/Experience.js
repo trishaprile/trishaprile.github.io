@@ -188,7 +188,7 @@ const Experience = () => {
               </Row>
             </Fade>
           </div>
-          <Button className="resume-btn" href={resume} target="_blank" rel="noreferrer">VIEW RESUME</Button>
+          <Button className="resume-btn primary" href={resume} target="_blank" rel="noreferrer">VIEW RESUME</Button>
         </Col>
       </Row>
     </Element>

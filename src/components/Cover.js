@@ -22,7 +22,7 @@ const Cover = () => {
           </Fade>
           <Fade bottom>
             <Button 
-              className="contact-btn"
+              className="contact-btn primary"
               onClick={() => scroller.scrollTo('contact', {
                 smooth: true,
                 offset: -50,
