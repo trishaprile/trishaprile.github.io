@@ -5,8 +5,8 @@ import { Row, Col, Image, Button, OverlayTrigger, Tooltip } from "react-bootstra
 import { Element } from 'react-scroll';
 import Fade from 'react-reveal/Fade';
 
+import readme from "../assets/job_logos/readme_logo.png";
 import startsmart from "../assets/job_logos/startsmart_logo.png";
-import peterportal from "../assets/job_logos/peterportal_logo.png";
 import ardentlabs from "../assets/job_logos/ardentlabs_logo.png";
 import boeing from "../assets/job_logos/boeing_logo.png";
 import figma from "../assets/toolbox_icons/figma.png";
@@ -35,22 +35,22 @@ const Experience = () => {
             <Fade top>
               <Row className="job" xs={8} sm={8} md={8} lg={8}>
                 <Col className="logo-container" xs={2} sm={2} md={2} lg={2}>
-                  <a href="https://startsmart.co/" target="_blank" rel="noreferrer"><Image className="logo" src={startsmart} alt="StartSmart"/></a>
+                  <a href="https://readme.com/" target="_blank" rel="noreferrer"><Image className="logo" src={readme} alt="StartSmart"/></a>
                 </Col>
                 <Col className="info-container" xs={9} sm={9} md={9} lg={9}>
-                  <h3 className="years">2020 - present</h3>
-                  <h2 className="company"><a href="https://startsmart.co/" target="_blank" rel="noreferrer">StartSmart</a></h2>
-                  <p className="role">Product Manager</p>
+                  <h3 className="years">2022 - present</h3>
+                  <h2 className="company"><a href="https://readme.com/" target="_blank" rel="noreferrer">ReadMe</a></h2>
+                  <p className="role">UI Engineer</p>
                 </Col>
               </Row>
               <Row className="job" xs={8} sm={8} md={8} lg={8}>
                 <Col className="logo-container" xs={2} sm={2} md={2} lg={2}>
-                  <a href="https://peterportal-client.herokuapp.com/about" target="_blank" rel="noreferrer"><Image className="logo" src={peterportal} alt="StartSmart"/></a>
+                  <a href="https://startsmart.co/" target="_blank" rel="noreferrer"><Image className="logo" src={startsmart} alt="StartSmart"/></a>
                 </Col>
                 <Col className="info-container" xs={9} sm={9} md={9} lg={9}>
                   <h3 className="years">2020 - 2021</h3>
-                  <h2 className="company"><a href="https://peterportal-client.herokuapp.com/about" target="_blank" rel="noreferrer">PeterPortal</a></h2>
-                  <p className="role">Project Manager</p>
+                  <h2 className="company"><a href="https://startsmart.co/" target="_blank" rel="noreferrer">StartSmart</a></h2>
+                  <p className="role">Product Manager</p>
                 </Col>
               </Row>
               <Row className="job" xs={8} sm={8} md={8} lg={8}>

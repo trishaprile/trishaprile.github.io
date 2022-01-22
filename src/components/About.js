@@ -22,8 +22,7 @@ const About = () => {
         <Col className="info-container">
           <Fade top>
             <h1>about me</h1>
-            <p>I’m a 21 year old from Orange County, California who aspires to be an innovative 
-              creator in the field of technology.</p>
+            <p>I’m a 21 year old who recently moved from Orange County, California to San Francisco.</p>
             <p>I recently graduated from the University of California, Irvine with a B.S. 
               in <a href="https://www.informatics.uci.edu/undergrad/bs-informatics/"
               rel="noreferrer" target="_blank">Informatics</a> and a minor in Education. 
@@ -32,6 +31,9 @@ const About = () => {
             <p>I’m passionate about exploring the possibilities of product & project management, 
               software development, and UI & UX design and research, with a focus on education, 
               accessibility, inclusion, and universal usability.</p>
+            <p>I am currently working as a <a href="https://readme.com/careers#ui-engineer" 
+              rel="noreferrer" target="_blank">UI Engineer</a> at <a href="https://readme.com/" 
+              rel="noreferrer" target="_blank">ReadMe</a>! 🦉</p>
           </Fade>
         </Col>
       </Row>
