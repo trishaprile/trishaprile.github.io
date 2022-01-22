@@ -23,7 +23,7 @@ const About = () => {
           <Fade top>
             <h1>about me</h1>
             <p>I’m a 21 year old who recently moved from Orange County, California to San Francisco.</p>
-            <p>I recently graduated from the University of California, Irvine with a B.S. 
+            <p>In 2021, I graduated from the University of California, Irvine with a B.S. 
               in <a href="https://www.informatics.uci.edu/undergrad/bs-informatics/"
               rel="noreferrer" target="_blank">Informatics</a> and a minor in Education. 
               My studies involved the understanding and practice of human computer interaction, 
