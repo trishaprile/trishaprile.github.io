@@ -64,7 +64,7 @@ const Projects = () => {
                       </Col>
                       <Col>
                         <h4>TIMELINE</h4>
-                        <p>Oct 2020 - Present</p>
+                        <p>Oct 2020 - Oct 2021</p>
                       </Col>
                     </Row>
                     <Row>
