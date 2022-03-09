@@ -31,8 +31,7 @@ const About = () => {
             <p>I’m passionate about exploring the possibilities of product & project management, 
               software development, and UI & UX design and research, with a focus on education, 
               accessibility, inclusion, and universal usability.</p>
-            <p>I am currently working as a <a href="https://readme.com/careers#ui-engineer" 
-              rel="noreferrer" target="_blank">UI Engineer</a> at <a href="https://readme.com/" 
+            <p>I am currently working as a UI Engineer at <a href="https://readme.com/" 
               rel="noreferrer" target="_blank">ReadMe</a>! 🦉</p>
           </Fade>
         </Col>
