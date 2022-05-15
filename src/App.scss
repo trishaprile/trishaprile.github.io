@@ -1,7 +1,7 @@
 .App {
   font-family: 'Gaegu', sans-serif;
-  background-color: #E2DED8;
-  color: #9F988C;
+  background-color: #E1D9CC;
+  color: #867762;
   width: 100vw;
   height: 100vh;
   display: grid;
@@ -11,14 +11,44 @@
     text-align: center;
     margin: 1rem;
     user-select: none;
+    width: 30vw;
 
     h1 {
       font-weight: bold;
       font-size: 32px;
+      margin-bottom: 1rem;
     }
   
     p {
       font-size: 24px;
+      margin-bottom: 3rem;
+    }
+
+    .socials {
+
+      .icon {
+        margin: 1.5rem;
+        height: 25px;
+        width: auto;
+        color: #867762;
+        &:hover {
+            transform: translateY(2px) !important;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .App {
+    .info {
+      width: 90vw;
+
+      .socials {
+        .icon {
+          margin: 1rem;
+        }
+      }
     }
   }
 }
