@@ -13,7 +13,7 @@ const App = () => {
       <div className="info">
         <Fade>
           <h1>hello, im trisha</h1>
-          <p>im a designer, developer, and human who enjoys creating thoughtful experiences</p>
+          <p>a designer, developer, and human who enjoys creating thoughtful experiences</p>
         </Fade>
         <div className="socials">
           <Fade bottom cascade>
